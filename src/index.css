@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-lab: #041b47;
+    --color-surface-lab: #07225b;
+    --color-surface-card: rgba(7, 34, 91, 0.75);
+    --color-primary-blue: #041b47;
+    --color-accent-yellow: #ffc300;
+    --color-light-blue: #e0eaff;
+    --color-white: #ffffff;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.glass-panel {
+  background: rgba(7, 34, 91, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(224, 234, 255, 0.15);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(255, 195, 0, 0.45);
+  box-shadow: 0 10px 30px -10px rgba(4, 27, 71, 0.5);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(4, 27, 71, 0.15);
+}
+
+.grid-bg {
+  background-image: radial-gradient(circle at center, rgba(224, 234, 255, 0.1) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.grid-bg-light {
+  background-image: radial-gradient(circle at center, rgba(4, 27, 71, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #041b47;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0d3480;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc300;
+}
+
+@keyframes bounceSlow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounceSlow 2.5s infinite ease-in-out;
+}

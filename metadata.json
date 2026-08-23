@@ -1,0 +1,6 @@
+{
+  "name": "EcoLab",
+  "description": "Laboratorio de Investigación Económica Universitario. Investigamos, Aprendemos, Conectamos. Formación, mentores, proyectos, observatorio de datos y recursos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
