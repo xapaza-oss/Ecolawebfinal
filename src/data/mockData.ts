@@ -313,35 +313,38 @@ export const MENTORS_DATA: MentorDocente[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: 'proj-1',
-    title: 'Impacto de la Automatización y la Inteligencia Artificial en la Desigualdad Salarial en América Latina',
+    title: 'Determinantes socioeconómicos y familiares del abandono escolar en adolescentes bolivianos mayores de 14 años: un análisis con regresión logística binomial',
     authors: [
-      { name: 'Dr. Santiago Arrieta', institution: 'EcoLab / UTDT' },
+      { name: 'Ernesto Ayala Attie' },
       { name: 'Dra. Camila Benítez', institution: 'EcoLab / UC3M' },
       { name: 'MSc. Daniel Osorio', institution: 'Universidad de Chile' }
     ],
-    abstract: 'Evaluamos la exposición a la IA y tareas rutinarias en 18 millones de registros administrativos de empleo formal e informal entre 2018 y 2025. Implementando un estimador de diferencias en diferencias con emparejamiento por entropía, encontramos que profesiones con alta intensidad analítica experimentaron un incremento del 8.4% en salarios relativos, mientras que los roles administrativos rutinarios sufrieron una contracción del 12.1% en puestos de entrada.',
+    abstract: 'La propuesta analiza los factores socioeconómicos, familiares y demográficos que inciden en la continuidad o el abandono escolar de los adolescentes bolivianos mayores de 14 años. Mediante el uso de un modelo de regresión logística binomial (Logit) basado en datos de la Encuesta de Hogares del Instituto Nacional de Estadística (INE), se evalúan determinantes como el ingreso del hogar, la educación de los padres, la zona de residencia (urbana/rural) y la inserción laboral temprana, diferenciando los motivos del abandono para ofrecer insumos orientados a políticas públicas.',
     year: 2025,
-    category: 'Economía Laboral',
-    status: 'Publicado',
+    category: 'Economía Laboral', 'Economía de la Educación', 'Desarrollo Social',
+    status: 'Propuesta de Investigación',
     journal: 'Journal of Development Economics (Vol. 162)',
-    jelCodes: ['J24 (Capital Humano)', 'J31 (Estructura Salarial)', 'O33 (Cambio Tecnológico)'],
-    datasetUsed: 'Panel Integrado de Seguridad Social y Encuestas de Hogares Homologadas EcoLab (2018-2025)',
-    methodology: 'Diferencias en Diferencias Generalizadas con Exposición a Tareas Automatizables (Aghion et al. metric)',
+    jelCodes: ['I21 (Análisis de la Educación)', 'J13 (Juventud y Trabajo)', 'I24 (Equidad Educativa)', 'J24 (Capital Humano)',],
+    datasetUsed: 'Encuesta de Hogares (EH 2023) - Instituto Nacional de Estadística (INE) Bolivia',
+    methodology: 'Regresión Logística Binomial (Modelo Logit)',
+
+    // Dentro de tu objeto de datos proj-1
+pdfUrl: 'https://drive.google.com/file/d/1jXN1P80GIoVOyMumhXMMN-KCYActDVH5/view?usp=sharing',
+    
     keyFindings: [
-      'Aumento del 8.4% en salarios de puestos con complementariedad a la IA.',
-      'Aceleración de la polarización laboral en ciudades medianas.',
-      'Brecha de género exacerbada en tareas administrativas sin formación STEM.'
+      'Mayor ingreso per cápita se correlaciona positivamente con la permanencia escolar.',
+      'Hijos de jefes de hogar con educación secundaria/superior tienen mayor probabilidad de continuidad.',
+      'Brecha urbano-rural persistente en tasas de abandono escolar a partir de los 14 años.' 
+      'Los varones enfrentan mayor riesgo de abandono por trabajo remunerado; las mujeres por labores de cuidado del hogar.'
     ],
-    downloadsCount: 1420,
-    citations: 27,
+    downloadsCount: 0,
+    citations: 0,
     chartData: [
-      { period: '2019', baseline: 100, treatment: 100, confidenceLow: 98, confidenceHigh: 102 },
-      { period: '2020', baseline: 96, treatment: 95, confidenceLow: 93, confidenceHigh: 97 },
-      { period: '2021', baseline: 102, treatment: 104, confidenceLow: 101, confidenceHigh: 107 },
-      { period: '2022', baseline: 104, treatment: 109, confidenceLow: 106, confidenceHigh: 112 },
-      { period: '2023', baseline: 106, treatment: 114, confidenceLow: 111, confidenceHigh: 117 },
-      { period: '2024', baseline: 107, treatment: 119, confidenceLow: 115, confidenceHigh: 123 },
-      { period: '2025', baseline: 108, treatment: 122, confidenceLow: 118, confidenceHigh: 126 }
+      { period: '2019', urbana: 89.09, rural: 78.42, nacional: 85.67 },
+      { period: '2020', urbana: 90.25, rural: 81.03, nacional: 87.24 },
+      { period: '2021', urbana: 91.38, rural: 86.72, nacional: 89.91 },
+      { period: '2022', urbana: 91.99, rural: 83.55, nacional: 89.23 },
+      { period: '2023', urbana: 92.30, rural: 86.01, nacional: 90.38 }
     ]
   },
   {
