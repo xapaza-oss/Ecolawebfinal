@@ -81,7 +81,7 @@ export const PILLARS_DATA: PillarDetail[] = [
 export const COURSES_DATA: Course[] = [
   {
     id: 'curso-1',
-    title: 'Microeconometría Aplicada e Inferencia Causal Moderna',
+    title: 'Microeconometría Aplicada',
     level: 'Intermedio',
     track: 'Políticas Públicas & Causalidad',
     duration: '8 Semanas',
