@@ -48,7 +48,7 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
 
   return (
     <div 
-    style={{ backgroundImage: "url('/activos/fondo.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+    style={{ backgroundImage: "url('/activos/fondo.jpg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
     className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
   >
       {/* Header Banner */}
