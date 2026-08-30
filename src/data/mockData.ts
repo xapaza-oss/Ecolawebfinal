@@ -334,13 +334,6 @@ export const PROJECTS_DATA: Project[] = [
     'Hijos de jefes de hogar con educación secundaria/superior tienen mayor probabilidad de continuidad.',
     'Brecha urbano-rural persistente en tasas de abandono escolar a partir de los 14 años.',
     'Los varones enfrentan mayor riesgo de abandono por trabajo remunerado; las mujeres por labores de cuidado del hogar.'
-  ],
-  chartData: [
-    { period: '2019', urbana: 89.09, rural: 78.42, nacional: 85.67 },
-    { period: '2020', urbana: 90.25, rural: 81.03, nacional: 87.24 },
-    { period: '2021', urbana: 91.38, rural: 86.72, nacional: 89.91 },
-    { period: '2022', urbana: 91.99, rural: 83.55, nacional: 89.23 },
-    { period: '2023', urbana: 92.30, rural: 86.01, nacional: 90.38 }
   ]
 },
   {
@@ -357,14 +350,14 @@ export const PROJECTS_DATA: Project[] = [
     jelCodes: ['J46 (Trabajo Informal)', 'J16 (Economía de Género)', 'Z13 (Economía Cultural)'],
     datasetUsed: 'Encuestas aplicadas a 120 vivanderas de las asociaciones "22 de Febrero" y "10 de Marzo" (La Paz, Septiembre 2025)',
     methodology: 'Enfoque Cuantitativo-Descriptivo con elementos Cualitativos (Análisis de frecuencias y escalas Likert)',
+    downloadsCount: 0,
+    citations: 0,
     keyFindings: [
       'El 95.8% (115 de 120) de las vivanderas pertenece a una asociación o sindicato.',
     'El 94.1% (113 de 120) recibió algún tipo de capacitación para la actividad.',
     'La mayoría de las vendedoras percibe ingresos medios entre 1.001 y 2.000 Bs por el evento.',
     'El grupo de edad entre 44 y 57 años concentra la mayor percepción de altos ingresos.'
-    ],
-    downloadsCount: 0,
-    citations: 0,
+    ]
   },
   {
     id: 'proj-3',
@@ -380,29 +373,15 @@ export const PROJECTS_DATA: Project[] = [
   jelCodes: ['H63 (Deuda Pública)', 'O11 (Análisis Macroeconómico del Desarrollo)', 'E62 (Política Fiscal)'],
   datasetUsed: 'Series de tiempo trimestrales (2006-2024) del MEFP, BCB, INE y PNUD (Crédito interno/externo, Intereses, Inversión Pública, IDH, TCR, IPC)',
   methodology: 'Cuantitativa Econométrica de Series de Tiempo (Pruebas de Cointegración de Johansen, Modelos VAR/VECM, ARDL / Bounds Testing y Funciones Impulso-Respuesta)',
+    downloadsCount: 0,
+    citations: 0,
     keyFindings: [
       'El crédito interno neto ha actuado como la principal variable de ajuste para el déficit fiscal en Bolivia, superando ampliamente al financiamiento externo.',
     'Se identifica un posible efecto crowding-out fiscal donde el aumento del servicio de la deuda desplaza al gasto en inversión pública y gasto social.',
     'La inversión pública sufrió una fuerte contracción desde 2014, cayendo a niveles comparables a los de hace 15 años.',
     'El estudio plantea que un mayor peso de los intereses limita la mejora sostenida del Índice de Desarrollo Humano (IDH).'
-    ],
-    downloadsCount: 0,
-    citations: 0,
-    chartData: [
-      { indicador: 'Inversión Pública Peak (2012-2015)', valorBs: 15297 },
-    { indicador: 'Inversión Pública Reciente (2024)', valorBs: 4937 },
-    { indicador: 'Crédito Interno Neto Max (2023)', valorBs: 17703 }
- ]
+    ]
   },
-
-
-
-
-
-
-
-
-  
 {
   id: 'proj-4',
   title: 'Dinámica de los incrementos salariales sobre el poder adquisitivo y consumo familiar en Bolivia (2010-2024)',
@@ -576,10 +555,6 @@ export const PROJECTS_DATA: Project[] = [
     'Muestra descriptivamente que la inflación esperada en las encuestas del BCB es sistemáticamente superior a la inflación efectiva del INE (con un error promedio de brecha de 0.3047), revelando un sesgo pesimista en los agentes.',
     'Registra un coeficiente de correlación de Pearson positivo (rho = 0.5467) entre las expectativas de inflación y el consumo acumulado de los hogares.',
     'Enmarca la discusión teórica combinando la Hipótesis del Ingreso Permanente (Friedman), Ciclo de Vida (Modigliani) y marcos de Expectativas Adaptativas e Incertidumbre (Cagan, Rocabado).'
-  ],
-  chartData: [
-    { label: 'E_INF (Expectativa Inflación Mensual %)', data: [0.45, 0.25, 0.35, 0.85, 0.40, 0.55, 0.35, 0.40, 0.20, 0.15, 0.10, 0.30, 0.25, 0.40, 0.25, 0.30, 0.35, 0.60, 0.45, 0.40, 0.80, 0.70, 0.45, 0.50, 0.55, 0.60, 0.90, 0.85, 0.60, 0.45, 1.80, 1.70] },
-    { label: 'INF (Inflación Efectiva INE Mensual %)', data: [-0.05, -0.10, 0.00, 0.40, 0.50, -1.00, 0.20, -0.30, 0.40, 0.05, -0.15, -0.20, 0.50, -0.20, -0.25, 0.00, 0.00, 0.40, 0.00, 0.10, 0.40, 0.70, -0.45, 0.00, 0.35, 0.35, -0.10, -0.05, 0.60, 0.05, 1.50, 0.85] }
   ]
 },
 {
@@ -630,10 +605,6 @@ export const PROJECTS_DATA: Project[] = [
     'Analiza el ITF bajo el concepto original de la "Tasa Tobin" de James Tobin (1978), adaptada en Bolivia por la Ley 843 y modificaciones posteriores para desdolarizar la economía.',
     'Muestra una alta correlación visual entre las caídas de recaudación del ITF y la contracción de los depósitos en moneda extranjera, evidenciada de forma pronunciada en el periodo 2023-2024.',
     'Relaciona el desincentivo tributario con el surgimiento de distorsiones en el mercado de divisas y la pérdida de reservas del sistema bancario.'
-  ],
-  chartData: [
-    { label: 'ITF % (Variación anual)', data: [0, 0, -27, 5, -1, 3, 9, -1, 2, 4, -3, 13, 12, 11, -4, -19, 19, 12, -31, -47] },
-    { label: 'dep_me % (Variación depósitos moneda extranjera)', data: [0, -35, -39, -31, 8, -15, -10, -17, -9, -7, 3, 9, -4, 0, 24, 4, 6, 4, -29, -15] }
   ]
 },
 {
@@ -684,10 +655,6 @@ export const PROJECTS_DATA: Project[] = [
     'Justifica a El Alto como el nodo industrial óptimo para la planta debido a la disponibilidad de terreno plano frente a la topografía accidentada y restrictiva de La Paz.',
     'Plantea una hipótesis escalonada donde el modelo de negocio inicial centrado en aceites usados presenta la mayor viabilidad inmediata frente a barreras normativas y de acopio.',
     'Evalúa la incorporación de tecnología de cultivo de microalgas para capturar CO2 residual del proceso e incrementar la producción de biodiésel.'
-  ],
-  chartData: [
-    { label: 'Volumen anual (t/año)', data: [201171.5, 263165.0] },
-    { label: 'Volumen diario (t/día)', data: [550.7, 721.0] }
   ]
 },
 {
@@ -713,11 +680,6 @@ export const PROJECTS_DATA: Project[] = [
     'Identifica picos críticos en el ensanchamiento de la brecha de género durante choques exógenos (crisis financiera de 2008 y crisis sanitaria de 2020).',
     'Conecta el marco teórico clásico del capital humano (Becker) y el sesgo de selección (Heckman) con desarrollos latinoamericanos sobre informalidad y discriminación estructural (Ñopo, Velasco y Yáñez).',
     'Plantea la necesidad de complementar los incrementos de escolaridad con políticas públicas directas sobre economía del cuidado e inserción laboral formal.'
-  ],
-  chartData: [
-    { label: 'Bolivia (Brecha Salarial %)', data: [60.2, 61.8, 63.9, 63.9, 60.5, 63.7, 43.6, 62.4, 62.9, 62.7, 62.1, 58.1, 59.2, 61.4, 54.9, 57.1, 59.3, 63.8, 66.4, 59.6, 71.2, 71.8] },
-    { label: 'Ecuador (Brecha Salarial %)', data: [54.7, 53.2, 49.2, 52.9, 52.0, 52.8, 52.1, 52.2, 49.9, 48.2, 47.3, 48.3, 48.3, 47.9, 52.1, 55.6, 56.4, 54.6, 54.5, 48.4, 53.7, 54.4] },
-    { label: 'Perú (Brecha Salarial %)', data: [61.5, 68.4, 61.8, 66.9, 64.3, 67.5, 70.1, 70.3, 70.5, 72.0, 71.2, 70.9, 70.1, 69.2, 67.6, 67.7, 69.3, 69.8, 70.0, 59.8, 64.8, 66.7] }
   ]
 },
   {
