@@ -1,3 +1,4 @@
+import fondoImg from '../../../activos/fondo.jpeg';
 import React, { useState } from 'react';
 import { COURSES_DATA } from '../../data/mockData';
 import { Course } from '../../types';
@@ -48,8 +49,8 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
 
   return (
     <div 
-    style={{ backgroundImage: "url('/activos/fondo.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
-    className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
+style={{ backgroundImage: "linear-gradient(to bottom, rgba(2, 16, 46, 0.88), rgba(4, 27, 71, 0.92)), url('../../../activos/fondo.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed'}}    
+      className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
   >
       {/* Header Banner */}
       <div className="text-center max-w-3xl mx-auto mb-12">
