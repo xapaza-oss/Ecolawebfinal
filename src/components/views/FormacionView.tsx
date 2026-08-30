@@ -48,9 +48,13 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
 
   return (
     <div 
-    style={{ backgroundImage: "url('/activos/fondo.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
-    className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
-  >
+  style={{ 
+    backgroundImage: "linear-gradient(to bottom, rgba(2, 16, 46, 0.88), rgba(4, 27, 71, 0.92)), url('/assets/fondo.jpeg')", 
+    backgroundSize: 'cover', 
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed'
+  }}
+  className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
       {/* Header Banner */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#ffc300]/15 border border-[#ffc300]/40 text-[#ffc300] font-mono-code text-xs uppercase tracking-widest mb-4 font-semibold">
