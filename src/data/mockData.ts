@@ -1,4 +1,26 @@
-import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail } from '../types';
+import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail, TeamMember, NewsPost } from '../types';
+
+
+export const NEWS_DATA: NewsPost[] = [
+  {
+    id: 'news-1',
+    title: 'Título de tu publicación',
+    type: 'foto',
+    mediaUrl: 'https://drive.google.com/uc?export=view&id=TU_ID_AQUI',
+    date: '2026-03-15',
+    description: 'Descripción corta de la publicación.'
+  }
+];
+
+export const EQUIPO_DATA: TeamMember[] = [
+  {
+    id: 'team-1',
+    name: 'Daniel Alanoca',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  }
+];
 
 export const PILLARS_DATA: PillarDetail[] = [
   {
