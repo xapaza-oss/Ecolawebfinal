@@ -25,14 +25,14 @@ export const Navbar: React.FC<NavbarProps> = ({
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const navItems: { id: NavSection; labelEs: string; labelEn: string }[] = [
+    const navItems: { id: NavSection; labelEs: string; labelEn: string }[] = [
     { id: 'inicio', labelEs: 'Inicio', labelEn: 'Home' },
+    { id: 'noticias', labelEs: 'Noticias EcoLab', labelEn: 'EcoLab News' },
     { id: 'formacion', labelEs: 'Formación', labelEn: 'Training' },
+    { id: 'equipo', labelEs: 'Equipo EcoLab', labelEn: 'EcoLab Team' },
     { id: 'mentores', labelEs: 'Mentores', labelEn: 'Mentors' },
     { id: 'docentes', labelEs: 'Docentes', labelEn: 'Faculty' },
-    { id: 'proyectos', labelEs: 'Proyectos', labelEn: 'Projects' },
-    { id: 'data', labelEs: 'EcoLab Data', labelEn: 'EcoLab Data' },
-    { id: 'recursos', labelEs: 'Recursos', labelEn: 'Resources' }
+    { id: 'proyectos', labelEs: 'Proyectos', labelEn: 'Projects' }
   ];
 
   const handleNavClick = (section: NavSection) => {
