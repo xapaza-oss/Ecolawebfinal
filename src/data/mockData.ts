@@ -1,4 +1,33 @@
-import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail } from '../types';
+import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail, TeamMember, NewsPost } from '../types';
+
+export const NEWS_DATA: NewsPost[] = [
+  {
+    id: 'news-1',
+    title: 'Título de tu publicación',
+    type: 'foto',
+    mediaUrl: 'https://drive.google.com/uc?export=view&id=TU_ID_AQUI',
+    date: '2026-03-15',
+    description: 'Descripción corta de la publicación.'
+  }
+];
+
+export const EQUIPO_DATA: TeamMember[] = [
+  {
+    id: 'team-1',
+    name: 'Paola Porco',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1uaOA_XL0ClFML3m_vmkJQvdrWWh6DxHV',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Descripción breve de esta persona.'
+  }
+],
+  {
+    id: 'team-1',
+    name: 'Daniel Alanoca',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Paola Elizabeth Porco Murga es estudiante de séptimo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención en Economía Financiera.. Actualmente, es miembro activo de la Sociedad Científica de Estudiantes de Economía (SOCIENCE – UMSA), donde desarrolla capacidades en metodología de investigación y análisis de datos. Posee un fuerte interés por el área financiera y los mercados. Asimismo, sus intereses de investigación se enfocan en el crecimiento económico y el bienestar social, con especial énfasis en el estudio de la desigualdad, la pobreza, la economía de la educación, el medio ambiente, la equidad de género.'
+  }
+];
 
 export const PILLARS_DATA: PillarDetail[] = [
   {
