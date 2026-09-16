@@ -1,4 +1,44 @@
-import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail } from '../types';
+import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail, TeamMember, NewsPost } from '../types';
+// 👉 NOTICIAS: fotos del programa, videos grabados y flyers.
+// - type 'foto' o 'flyer': en "mediaUrl" pega el link DIRECTO a la imagen.
+// - type 'video': en "mediaUrl" pega el link de EMBED de YouTube (no el link normal).
+//   Si tu video es https://www.youtube.com/watch?v=XXXXXXXX
+//   el link de embed es https://www.youtube.com/embed/XXXXXXXX
+export const NEWS_DATA: NewsPost[] = [
+  {
+    id: 'news-1',
+    title: 'Título de tu publicación',
+    type: 'foto',
+    mediaUrl: 'PEGA_AQUI_TU_LINK_DE_IMAGEN',
+    date: '2026-03-15',
+    description: 'Descripción corta de la publicación.'
+  }
+  // Copia y pega este mismo bloque (con una coma antes) para agregar más noticias.
+];
+
+// 👉 EQUIPO ECOLAB: foto, nombre, resumen de CV y descripción de cada persona.
+export const EQUIPO_DATA: TeamMember[] = [
+  {
+    id: 'team-1',
+    name: 'Paola Porco',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1uaOA_XL0ClFML3m_vmkJQvdrWWh6DxHV',
+    cvSummary: 'Cargo — comuncaciones',
+    description: 'Descripción breve de esta persona.'
+  }
+  // Copia y pega este mismo bloque (con una coma antes) para agregar más integrantes.
+],
+{
+    id: 'team-1',
+    name: 'Daniel Alanoca',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — comunicaciones',
+    description: 'Descripción breve de esta persona.'
+  }
+  // Copia y pega este mismo bloque (con una coma antes) para agregar más integrantes.
+];
+
+
+
 
 export const PILLARS_DATA: PillarDetail[] = [
   {
