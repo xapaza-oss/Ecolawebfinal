@@ -3,11 +3,11 @@ import { NavSection, PillarDetail, Project, Course, MentorDocente } from './type
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { HomeView } from './components/views/HomeView';
+import { NoticiasEcoLabView } from './components/views/NoticiasEcoLabView';
 import { FormacionView } from './components/views/FormacionView';
 import { MentoresDocentesView } from './components/views/MentoresDocentesView';
+import { EquipoEcolabView } from './components/views/EquipoEcolabView';
 import { ProyectosView } from './components/views/ProyectosView';
-import { EcoLabDataView } from './components/views/EcoLabDataView';
-import { RecursosView } from './components/views/RecursosView';
 
 // Modals
 import { PillarModal } from './components/modals/PillarModal';
@@ -75,6 +75,10 @@ export function App() {
           />
         )}
 
+        {currentSection === 'noticias' && (
+          <NoticiasEcoLabView isDark={isDark} lang={lang} />
+        )}
+        
         {currentSection === 'formacion' && (
           <FormacionView
             isDark={isDark}
@@ -82,11 +86,15 @@ export function App() {
             lang={lang}
           />
         )}
+        
+        {currentSection === 'equipo' && (
+          <EquipoEcolabView isDark={isDark} lang={lang} />
+        )}
 
         {(currentSection === 'mentores' || currentSection === 'docentes') && (
           <MentoresDocentesView
             isDark={isDark}
-            initialRoleFilter={currentSection === 'docentes' ? 'docente' : currentSection === 'mentores' ? 'mentor' : 'all'}
+            initialRoleFilter={currentSection === 'docentes' ? 'docente' : 'mentor'}
             onSelectMentor={(mentor) => setSelectedMentor(mentor)}
             lang={lang}
           />
@@ -100,13 +108,6 @@ export function App() {
           />
         )}
 
-        {currentSection === 'data' && (
-          <EcoLabDataView isDark={isDark} lang={lang} />
-        )}
-
-        {currentSection === 'recursos' && (
-          <RecursosView isDark={isDark} lang={lang} />
-        )}
       </main>
 
       {/* Institutional Academic Footer */}
