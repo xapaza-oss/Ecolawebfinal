@@ -1,4 +1,21 @@
-export type NavSection = 'inicio' | 'formacion' | 'mentores' | 'docentes' | 'proyectos' | 'data' | 'recursos';
+export type NavSection = 'inicio' | 'noticias' | 'formacion' | 'equipo' | 'mentores' | 'docentes' | 'proyectos';
+
+export interface NewsPost {
+  id: string;
+  title: string;
+  type: 'foto' | 'video' | 'flyer';
+  mediaUrl: string; // foto/flyer: link directo a la imagen. video: link de embed de YouTube
+  date: string;
+  description: string;
+}
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  photoUrl: string;
+  cvSummary: string;
+  description: string;
+}
 
 export interface Course {
   id: string;
