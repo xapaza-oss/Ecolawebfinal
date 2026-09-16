@@ -522,8 +522,13 @@ export const PROJECTS_DATA: Project[] = [
     id: 'proj-2',
     title: 'Análisis de los pequeños comerciantes de cerveza durante la Entrada del Gran Poder en La Paz, Bolivia',
     authors: [
-      { name: 'Calcina Mamani Fabiola Belén', institution: 'Universidad Mayor de San Andrés (UMSA)-Economía-Programa EcoLab' },
-    ],
+  {
+    name: 'Calcina Mamani Fabiola Belén',
+    institution: 'Universidad Mayor de San Andrés (UMSA)-Economía-Programa EcoLab',
+    photoUrl: 'https://drive.google.com/file/d/1SEfnJ6u0FBo73ftr9U32fcyIkCBSgzZA/view?usp=drive_link',
+    bio: 'Estudiante de.... sus intereses son.....í'
+  },
+],
     abstract: 'El estudio analiza la dinámica económica, social y cultural de las pequeñas comerciantes (vivanderas) de cerveza durante la festividad de la Entrada del Gran Poder en La Paz. A partir de una muestra de 120 vendedoras, se evalúan la percepción de ingresos, el nivel de organización sindical, las capacitaciones y el impacto de esta actividad en la autonomía económica femenina en el sector informal.',
     year: 2025,
     category: ['Economía Informal', 'Economía Urbana', 'Género y Desarrollo'],
