@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { COURSES_DATA } from '../../data/mockData';
 import { Course } from '../../types';
 import { BookOpen, Clock, Calendar, Search, Filter, CheckCircle2, ChevronDown, ChevronUp, ArrowRight, Sparkles } from 'lucide-react';
+import fondoFormación from '../../../assets/fondo.jpeg';
 
 interface FormacionViewProps {
   isDark: boolean;
