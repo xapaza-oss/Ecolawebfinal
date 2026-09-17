@@ -6,7 +6,7 @@ export const NEWS_DATA: NewsPost[] = [
     id: 'news-1',
     title: 'Título de tu publicación',
     type: 'foto',
-    mediaUrl: 'https://drive.google.com/uc?export=view&id=TU_ID_AQUI',
+    mediaUrl: 'https://drive.google.com/uc?export=view&id=1vVmY3o8YHZ-7pfNPqGASVkil-kfKPAIO',
     date: '2026-03-15',
     description: 'Descripción corta de la publicación.'
   }
@@ -432,32 +432,33 @@ export const COURSES_DATA: Course[] = [
 export const MENTORS_DATA: MentorDocente[] = [
   {
     id: 'mentor-1',
-    name: 'Prof. Dra. Elena Morales',
+    name: 'Ivan Velasquez Castellanos',
     role: 'Docente Investigador',
     title: 'Directora Académica EcoLab',
     department: 'Departamento de Economía Cuantitativa',
-    university: 'Universidad de los Andes & Visiting Prof. Stanford',
-    country: 'Colombia / EE.UU.',
+    university: 'Universidad Mayor de San André (UMSA) & kacnjknc aj',
+    country: 'Bolivia / EE.UU.',
     bio: 'Especialista en economía experimental y evaluación de impacto en educación y programas de género. Ha liderado más de 14 ensayos controlados aleatorizados en América Latina con financiamiento del J-PAL y BID.',
     specialties: ['Economía del Comportamiento', 'Evaluación de Impacto (RCTs)', 'Economía de Género', 'Microeconometría'],
     recentPublications: [
       { title: 'Nudging Academic Persistence: A Scalable Field Experiment in Public Universities', journal: 'Journal of Development Economics', year: 2024 },
       { title: 'Information Asymmetries and Female Labor Participation in Andean Megacities', journal: 'American Economic Journal: Applied Economics', year: 2023 }
     ],
+      
     email: 'elena.morales@ecolab-research.org',
     scholarUrl: 'https://scholar.google.com',
     orcid: '0000-0002-4821-9921',
-    availableHours: 'Jueves 14:00 - 18:00 (4 cupos)',
-    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=400',
+    avatar: 'https://drive.google.com/uc?export=view&id=1-lXH-WQigYe88sr6_ItHuzJqmi0e24qv',
     acceptingMentees: true
   },
+  
   {
     id: 'mentor-2',
-    name: 'Dr. Mateo Albarracín',
+    name: 'MSc Osmar Bolivar',
     role: 'Docente Investigador',
     title: 'Cátedra de Macroeconomía y Finanzas',
     department: 'Instituto de Economía y Políticas Financieras',
-    university: 'Universidad de Chile & PhD Toulouse School of Economics',
+    university: 'Universidad Mayor de San André (UMSA)',
     country: 'Chile',
     bio: 'Investigador enfocado en política monetaria no convencional, choques en precios de commodities y transmisión de política en economías dolarizadas o bimonetarias.',
     specialties: ['Macroeconomía Cuantitativa', 'Modelos DSGE', 'Series de Tiempo', 'Política Monetaria'],
@@ -474,11 +475,11 @@ export const MENTORS_DATA: MentorDocente[] = [
   },
   {
     id: 'mentor-3',
-    name: 'Dra. Camila Benítez',
+    name: 'Lic Pablo Cachaga',
     role: 'Mentor Senior',
     title: 'Lead Causal Inference Fellow',
     department: 'Laboratorio de Microeconomía y Políticas Públicas',
-    university: 'Universidad Carlos III de Madrid / Postdoc UC Berkeley',
+    university: 'Universidad Mayor de San André (UMSA)',
     country: 'España / México',
     bio: 'Pionera en la aplicación de estimadores robustos de Diferencias en Diferencias y econometría espacial para evaluar transferencias sociales y formalización empresarial.',
     specialties: ['Inferencia Causal', 'Econometría Espacial', 'Economía Laboral', 'Staggered DiD'],
@@ -495,11 +496,11 @@ export const MENTORS_DATA: MentorDocente[] = [
   },
   {
     id: 'mentor-4',
-    name: 'Dr. Santiago Arrieta',
+    name: 'MSc Vidal Choque Atto',
     role: 'Mentor Senior',
     title: 'Director de Analítica y Big Data Económico',
     department: 'Centro de Datos de Alta Frecuencia',
-    university: 'Universidad Torcuato Di Tella & PhD Pompeu Fabra',
+    university: 'Universidad Mayor de San André (UMSA)',
     country: 'Argentina',
     bio: 'Experto en el cruce de Machine Learning con identificación causal y procesamiento de billones de transacciones financieras y datos satelitales para estimación del PIB en tiempo real (nowcasting).',
     specialties: ['Machine Learning Económico', 'Nowcasting del PIB', 'Big Data', 'Double ML'],
@@ -516,11 +517,11 @@ export const MENTORS_DATA: MentorDocente[] = [
   },
   {
     id: 'mentor-5',
-    name: 'MSc. Lucía Valenzuela',
+    name: 'Lic Elvis Vargas',
     role: 'Asistente de Investigación',
     title: 'Coordinadora de Semilleros EcoLab',
     department: 'Semillero de Econometría y Microdatos',
-    university: 'Pontificia Universidad Católica del Perú (PUCP)',
+    university: 'Universidad Mayor de San André (UMSA)',
     country: 'Perú',
     bio: 'Economista investigadora especializada en análisis de encuestas de hogares (ENAHO, CASEN, EPH) y tutoría de tesis en microeconomía aplicada.',
     specialties: ['Microdatos ENAHO/CASEN', 'Programación en R & Stata', 'Economía de la Pobreza'],
@@ -536,12 +537,12 @@ export const MENTORS_DATA: MentorDocente[] = [
   },
   {
     id: 'mentor-6',
-    name: 'Dr. Gabriel Restrepo',
+    name: 'MBA Jose Miguel Molina',
     role: 'Docente Investigador',
     title: 'Profesor de Economía Ambiental y Recursos',
     department: 'Centro de Transición Energética y Sostenibilidad',
-    university: 'UNAM México & PhD Oxford University',
-    country: 'México',
+    university: 'Universidad Mayor de San André & kmkllll',
+    country: 'Bolivia / EEUU',
     bio: 'Líder en estudios sobre impuestos al carbono, valoración contingente del agua y efectos distributivos de la transición energética en países en desarrollo.',
     specialties: ['Economía Ambiental', 'Impuestos al Carbono', 'Modelos CGE', 'Econometría Espacial'],
     recentPublications: [
