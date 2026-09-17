@@ -15,6 +15,48 @@ export const NEWS_DATA: NewsPost[] = [
 export const EQUIPO_DATA: TeamMember[] = [
   {
     id: 'team-1',
+    name: 'Mariela Ramos Guarachi',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1PJKt627WRjpYZq0VThajZr5wpSQxA_36',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  },
+  {
+    id: 'team-1',
+    name: 'Jamil',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  },
+  {
+    id: 'team-1',
+    name: 'Ximena Apaza Mamani',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  },
+{
+    id: 'team-1',
+    name: 'Pablo Rene Alandia S',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  },
+  {
+    id: 'team-1',
+    name: 'Paola Porco',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1uaOA_XL0ClFML3m_vmkJQvdrWWh6DxHV',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de séptimo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención en Economía Financiera.. Actualmente, es miembro activo de la Sociedad Científica de Estudiantes de Economía (SOCIENCE – UMSA), donde desarrolla capacidades en metodología de investigación y análisis de datos. Posee un fuerte interés por el área financiera y los mercados. Asimismo, sus intereses de investigación se enfocan en el crecimiento económico y el bienestar social, con especial énfasis en el estudio de la desigualdad, la pobreza, la economía de la educación, el medio ambiente, la equidad de género.'
+  },
+  {
+    id: 'team-1',
+    name: 'Maria Yosy Lucana Mamani',
+    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    cvSummary: 'Cargo — título profesional',
+    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+  },
+  {
+    id: 'team-1',
     name: 'Daniel Alanoca',
     photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
     cvSummary: 'Cargo — título profesional',
