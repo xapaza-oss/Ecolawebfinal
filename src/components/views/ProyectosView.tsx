@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { PROJECTS_DATA } from '../../data/mockData';
 import { Project } from '../../types';
 import { FileText, Search, PlusCircle, Download, BookOpen, Layers, Sparkles, ArrowRight } from 'lucide-react';
+import fondoProyectos from '../../../assets/fondo.jpeg';
 
 interface ProyectosViewProps {
   isDark: boolean;
