@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavSection } from '../types';
 import { Search, Globe, Moon, Sun, Menu, X, FlaskConical, Sparkles, ChevronRight } from 'lucide-react';
+import fotoLogo from '../../assets/Logo.png';
 
 interface NavbarProps {
   currentSection: NavSection;
@@ -54,8 +55,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           onClick={() => handleNavClick('inicio')}
           className="font-serif-display text-2xl font-bold tracking-tight flex items-center gap-2 text-left group focus:outline-none"
         >
-          <div className="w-8 h-8 rounded-lg bg-[#ffc300]/15 border border-[#ffc300]/40 flex items-center justify-center text-[#ffc300] group-hover:scale-105 transition-transform">
-            <FlaskConical className="w-5 h-5 text-[#ffc300]" />
+           <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center group-hover:scale-105 transition-transform">
+            <img src={fotoLogo} alt="EcoLab" className="w-full h-full object-cover" />
           </div>
           <span className={`${isDark ? 'text-white' : 'text-[#041b47]'} transition-colors`}>
             EcoLab
