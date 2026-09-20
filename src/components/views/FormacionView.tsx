@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { COURSES_DATA } from '../../data/mockData';
 import { Course } from '../../types';
 import { BookOpen, Clock, Calendar, Search, Filter, CheckCircle2, ChevronDown, ChevronUp, ArrowRight, Sparkles } from 'lucide-react';
+import fondoFormacion from '../../../assets/fondo.jpeg';
 
 interface FormacionViewProps {
   isDark: boolean;
@@ -48,8 +49,8 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
 
   return (
     <div 
-    style={{ backgroundImage: "url('/activos/fondo.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
-    className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
+    style={{ backgroundImage: `url(${fondoFormacion})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}
+      className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen"
   >
       {/* Header Banner */}
       <div className="text-center max-w-3xl mx-auto mb-12">
