@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { MENTORS_DATA } from '../../data/mockData';
 import { MentorDocente } from '../../types';
 import { User, Users, Search, Mail, ExternalLink, Calendar, BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
+import fondoMentores from '../../../assets/fondo.jpeg';
 
 interface MentoresDocentesViewProps {
   isDark: boolean;
@@ -51,7 +52,9 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
   });
 
   return (
-    <div className="py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen">
+    <div style={{ backgroundImage: `url(${fondoMentores})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }} className="relative min-h-screen">
+      <div className={`absolute inset-0 ${isDark ? 'bg-[#041b47]/85' : 'bg-white/85'}`} />
+      <div className="relative py-12 px-4 sm:px-8 max-w-7xl mx-auto min-h-screen">
       {/* Header Banner */}
       <div className="text-center max-w-3xl mx-auto mb-12">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#ffc300]/15 border border-[#ffc300]/40 text-[#ffc300] font-mono-code text-xs uppercase tracking-widest mb-4 font-semibold">
@@ -211,8 +214,9 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
                 <span>{lang === 'es' ? 'Agendar' : 'Book'}</span>
               </button>
             </div>
-          </div>
+           </div>
         ))}
+      </div>
       </div>
     </div>
   );
