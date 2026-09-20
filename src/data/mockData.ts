@@ -1,5 +1,12 @@
 import { Course, MentorDocente, Project, EconomicDataset, ResourceItem, PillarDetail, TeamMember, NewsPost } from '../types';
-
+import fotoLogo from '../../assets/Logo.png';
+import fotoDanielAlanoca from '../../assets/Daniel Alanoca .jpeg';
+import fotoPaolaPorco from '../../assets/Paola Porco .jpg';
+import fotoIvanVelazquez from '../../assets/Ivan Velazquez.jpg';
+import fotoOsmarBolivar from '../../assets/Osmar Bolivar.png';
+import fotoPabloCachaga from '../../assets/pablo Cachaga.jpg';
+import fotoVidalCoque from '../../assets/Vidal Coque.jpg';
+import fotoMiguelMolina from '../../assets/Miguel Molina.jpg';
 
 export const NEWS_DATA: NewsPost[] = [
   {
@@ -44,7 +51,7 @@ export const EQUIPO_DATA: TeamMember[] = [
   {
     id: 'team-1',
     name: 'Paola Porco',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1uaOA_XL0ClFML3m_vmkJQvdrWWh6DxHV',
+    photoUrl: fotoPaolaPorco,
     cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de séptimo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención en Economía Financiera.. Actualmente, es miembro activo de la Sociedad Científica de Estudiantes de Economía (SOCIENCE – UMSA), donde desarrolla capacidades en metodología de investigación y análisis de datos. Posee un fuerte interés por el área financiera y los mercados. Asimismo, sus intereses de investigación se enfocan en el crecimiento económico y el bienestar social, con especial énfasis en el estudio de la desigualdad, la pobreza, la economía de la educación, el medio ambiente, la equidad de género.'
   },
@@ -58,7 +65,7 @@ export const EQUIPO_DATA: TeamMember[] = [
   {
     id: 'team-1',
     name: 'Daniel Alanoca',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    photoUrl: fotoDanielAlanoca,
     cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   }
@@ -448,7 +455,7 @@ export const MENTORS_DATA: MentorDocente[] = [
     email: 'elena.morales@ecolab-research.org',
     scholarUrl: 'https://scholar.google.com',
     orcid: '0000-0002-4821-9921',
-    avatar: 'https://drive.google.com/uc?export=view&id=1-lXH-WQigYe88sr6_ItHuzJqmi0e24qv',
+    avatar: fotoIvanVelazquez,
     acceptingMentees: true
   },
   
@@ -470,7 +477,7 @@ export const MENTORS_DATA: MentorDocente[] = [
     scholarUrl: 'https://scholar.google.com',
     orcid: '0000-0001-9032-1144',
     availableHours: 'Viernes 10:00 - 13:00 (2 cupos)',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=400',
+    avatar: fotoOsmarBolivar,
     acceptingMentees: true
   },
   {
@@ -491,7 +498,7 @@ export const MENTORS_DATA: MentorDocente[] = [
     scholarUrl: 'https://scholar.google.com',
     orcid: '0000-0003-7721-0098',
     availableHours: 'Miércoles 16:00 - 19:00 (3 cupos)',
-    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=400',
+    avatar: fotoPabloCachaga,
     acceptingMentees: true
   },
   {
@@ -512,7 +519,7 @@ export const MENTORS_DATA: MentorDocente[] = [
     scholarUrl: 'https://scholar.google.com',
     orcid: '0000-0002-1209-6632',
     availableHours: 'Martes 09:00 - 12:00 (3 cupos)',
-    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400',
+    avatar: fotoVidalCoque,
     acceptingMentees: true
   },
   {
