@@ -1,23 +1,20 @@
 import React, { useState } from 'react';
 import { MENTORS_DATA } from '../../data/mockData';
 import { MentorDocente } from '../../types';
-import { User, Users, Search, Mail, ExternalLink, Calendar, BookOpen, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Users, Search, Calendar } from 'lucide-react';
 import fondoMentores from '../../../assets/fondo.jpeg';
 
 interface MentoresDocentesViewProps {
   isDark: boolean;
-  initialRoleFilter?: 'all' | 'docente' | 'mentor';
   onSelectMentor: (mentor: MentorDocente) => void;
   lang: 'es' | 'en';
 }
 
 export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
   isDark,
-  initialRoleFilter = 'all',
   onSelectMentor,
   lang
 }) => {
-  const [roleFilter, setRoleFilter] = useState<'all' | 'docente' | 'mentor'>('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSpecialty, setSelectedSpecialty] = useState<string>('all');
 
@@ -38,17 +35,10 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
       mentor.university.toLowerCase().includes(searchQuery.toLowerCase()) ||
       mentor.specialties.some((s) => s.toLowerCase().includes(searchQuery.toLowerCase()));
 
-    const matchesRole =
-      roleFilter === 'all'
-        ? true
-        : roleFilter === 'docente'
-        ? mentor.role === 'Docente Investigador'
-        : mentor.role === 'Mentor Senior' || mentor.role === 'Asistente de Investigación';
-
     const matchesSpecialty =
       selectedSpecialty === 'all' || mentor.specialties.some((s) => s.includes(selectedSpecialty));
 
-    return matchesQuery && matchesRole && matchesSpecialty;
+    return matchesQuery && matchesSpecialty;
   });
 
   return (
@@ -85,29 +75,6 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
                 isDark ? 'bg-[#02102e]/80 border-[#e0eaff]/20 text-white' : 'bg-white border-[#041b47]/20 text-[#041b47]'
               }`}
             />
-          </div>
-
-          {/* Role Filter Tabs */}
-          <div className="flex gap-2 w-full sm:w-auto">
-            {[
-              { id: 'all', label: lang === 'es' ? 'Todos' : 'All' },
-              { id: 'docente', label: lang === 'es' ? 'Docentes Titulares' : 'Faculty' },
-              { id: 'mentor', label: lang === 'es' ? 'Mentores Senior' : 'Mentors' },
-            ].map((tab) => (
-              <button
-                key={tab.id}
-                onClick={() => setRoleFilter(tab.id as any)}
-                className={`px-4 py-2 rounded-lg text-xs font-mono-code transition-all border ${
-                  roleFilter === tab.id
-                    ? 'bg-[#ffc300] text-[#041b47] border-[#ffc300] font-bold'
-                    : isDark
-                      ? 'bg-white/5 border-white/10 text-[#e0eaff]/70 hover:text-white'
-                      : 'bg-white border-[#041b47]/15 text-[#041b47]/70 hover:text-[#041b47]'
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
           </div>
         </div>
 
@@ -214,7 +181,7 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
                 <span>{lang === 'es' ? 'Agendar' : 'Book'}</span>
               </button>
             </div>
-           </div>
+          </div>
         ))}
       </div>
       </div>
