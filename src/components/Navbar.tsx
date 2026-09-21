@@ -31,7 +31,6 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'noticias', labelEs: 'Noticias EcoLab', labelEn: 'EcoLab News' },
     { id: 'formacion', labelEs: 'Formación', labelEn: 'Training' },
     { id: 'equipo', labelEs: 'Equipo EcoLab', labelEn: 'EcoLab Team' },
-    { id: 'mentores', labelEs: 'Mentores', labelEn: 'Mentors' },
     { id: 'docentes', labelEs: 'Docentes', labelEn: 'Faculty' },
     { id: 'proyectos', labelEs: 'Proyectos', labelEn: 'Projects' }
   ];
