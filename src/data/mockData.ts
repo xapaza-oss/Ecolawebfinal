@@ -7,6 +7,12 @@ import fotoOsmarBolivar from '../../assets/Osmar Bolivar.png';
 import fotoPabloCachaga from '../../assets/pablo Cachaga.jpg';
 import fotoVidalCoque from '../../assets/Vidal Coque.jpg';
 import fotoMiguelMolina from '../../assets/Miguel Molina.jpg';
+import fotoJamilPatzi from '../../assets/Jamil Patzi.jpg';
+import fotoMarielaRamos from '../../assets/Mariela Ramos.jpg';
+import fotoPabloAlandia from '../../assets/Pablo Alandia.jpg';
+import fotoXimenaApaza from '../../assets/XimenaApaz.png';
+
+
 
 export const NEWS_DATA: NewsPost[] = [
   {
