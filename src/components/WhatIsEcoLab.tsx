@@ -34,15 +34,13 @@ export const WhatIsEcoLab: React.FC<WhatIsEcoLabProps> = ({
     }
   };
 
-    const getSectionForPillar = (id: string): NavSection => {
+      const getSectionForPillar = (id: string): NavSection => {
     switch (id) {
       case 'formacion':
         return 'formacion';
       case 'mentoria':
         return 'docentes';
       case 'investigacion':
-        return 'proyectos';
-      case 'resultados':
         return 'proyectos';
       default:
         return 'inicio';
@@ -67,14 +65,14 @@ export const WhatIsEcoLab: React.FC<WhatIsEcoLabProps> = ({
           }`}
         >
           {lang === 'es'
-            ? 'Una metodología estructurada para transformar la curiosidad académica en impacto económico real.'
-            : 'A structured methodology to transform academic curiosity into real, verifiable economic impact.'}
+            ? 'Programa de formación y mentorías en investigación aplicada, impulsado por la Sociedad Científica de Estudiantes de Economía (SOCIENCE) de la UMSA.'
+            : 'A training and mentorship program in applied research, run by the Economics Student Scientific Society (SOCIENCE) at UMSA.'}
         </p>
       </div>
 
       {/* 5 Bento Grid cards exactly matching the image */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5">
-        {PILLARS_DATA.map((pillar) => {
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+      {PILLARS_DATA.map((pillar) => {
           return (
             <div
               key={pillar.id}
