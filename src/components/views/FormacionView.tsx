@@ -215,18 +215,6 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
                   </div>
                 </div>
 
-                <div className="pt-4 border-t border-white/10 flex items-center justify-between">
-                  <span className="text-xs font-mono-code text-[#ffc300] font-bold uppercase">
-                    {lang === 'es' ? 'Acceso Becado / Gratuito' : 'Full Scholarship / Free'}
-                  </span>
-                  <button
-                    onClick={() => onSelectCourse(course)}
-                    className="px-5 py-2.5 bg-[#ffc300] hover:bg-[#ffd033] text-[#041b47] font-mono-code text-xs uppercase font-bold tracking-wider rounded flex items-center gap-2 shadow-sm active:scale-95 transition-all"
-                  >
-                    <span>{lang === 'es' ? 'Inscribirme al Curso' : 'Enroll in Course'}</span>
-                    <ArrowRight className="w-4 h-4 text-[#041b47]" />
-                  </button>
-                </div>
               </div>
             );
           })}
