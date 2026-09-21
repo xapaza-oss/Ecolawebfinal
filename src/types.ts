@@ -1,4 +1,4 @@
-export type NavSection = 'inicio' | 'noticias' | 'formacion' | 'equipo' | 'mentores' | 'docentes' | 'proyectos';
+export type NavSection = 'inicio' | 'noticias' | 'formacion' | 'equipo' | 'docentes' | 'proyectos';
 
 export interface NewsPost {
   id: string;
