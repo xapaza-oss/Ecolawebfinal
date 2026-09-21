@@ -23,7 +23,7 @@ export const EQUIPO_DATA: TeamMember[] = [
   {
     id: 'team-1',
     name: 'Mariela Ramos Guarachi',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1PJKt627WRjpYZq0VThajZr5wpSQxA_36',
+    photoUrl: fotoMarielaRamos,
     cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
@@ -31,13 +31,13 @@ export const EQUIPO_DATA: TeamMember[] = [
     id: 'team-1',
     name: 'Jamil',
     photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
-    cvSummary: 'Cargo — título profesional',
+    cvSummary: fotoJamilPatzi,
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
   {
     id: 'team-1',
     name: 'Ximena Apaza Mamani',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
+    photoUrl: fotoXimenaApaza,
     cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
@@ -45,7 +45,7 @@ export const EQUIPO_DATA: TeamMember[] = [
     id: 'team-1',
     name: 'Pablo Rene Alandia S',
     photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
-    cvSummary: 'Cargo — título profesional',
+    cvSummary: fotoPabloAlandia,
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
   {
@@ -439,129 +439,160 @@ export const COURSES_DATA: Course[] = [
 export const MENTORS_DATA: MentorDocente[] = [
   {
     id: 'mentor-1',
-    name: 'Ivan Velasquez Castellanos',
-    role: 'Docente Investigador',
-    title: 'Directora Académica EcoLab',
-    department: 'Departamento de Economía Cuantitativa',
-    university: 'Universidad Mayor de San André (UMSA) & kacnjknc aj',
-    country: 'Bolivia / EE.UU.',
-    bio: 'Especialista en economía experimental y evaluación de impacto en educación y programas de género. Ha liderado más de 14 ensayos controlados aleatorizados en América Latina con financiamiento del J-PAL y BID.',
-    specialties: ['Economía del Comportamiento', 'Evaluación de Impacto (RCTs)', 'Economía de Género', 'Microeconometría'],
+    name: 'Dr. Iván Omar Velásquez Castellanos',
+    role: 'Docente e Investigador',
+    title: 'Profesor de Posgrado',
+    department: 'Doctorado en Economía',
+    university: 'Universidad Mayor de San Andrés (UMSA) / UNIVALLE',
+    country: 'Bolivia',
+    bio: 'Economista especializado en desarrollo económico, desigualdad, pobreza y movilidad social en Bolivia. Excoordinador del Programa en Bolivia de la Fundación KAS e Investigador Senior en ZEF (Universidad de Bonn).',
+  specialties: ['Desarrollo Económico', 'Desigualdad y Pobreza', 'Historia Económica', 'Movilidad Social'],
     recentPublications: [
-      { title: 'Nudging Academic Persistence: A Scalable Field Experiment in Public Universities', journal: 'Journal of Development Economics', year: 2024 },
-      { title: 'Information Asymmetries and Female Labor Participation in Andean Megacities', journal: 'American Economic Journal: Applied Economics', year: 2023 }
+      { title: 'Un siglo de economía en Bolivia (Coordinación/Colaboración)', journal: 'Publicación de Referencia', year: 2020 },
     ],
       
-    email: 'elena.morales@ecolab-research.org',
+    email: 'ivan.velasquez@umsa.bo',
     scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0002-4821-9921',
+    orcid: '0000-0000-0000-0000',
     avatar: fotoIvanVelazquez,
     acceptingMentees: true
   },
   
   {
     id: 'mentor-2',
-    name: 'MSc Osmar Bolivar',
-    role: 'Docente Investigador',
-    title: 'Cátedra de Macroeconomía y Finanzas',
-    department: 'Instituto de Economía y Políticas Financieras',
-    university: 'Universidad Mayor de San André (UMSA)',
-    country: 'Chile',
-    bio: 'Investigador enfocado en política monetaria no convencional, choques en precios de commodities y transmisión de política en economías dolarizadas o bimonetarias.',
-    specialties: ['Macroeconomía Cuantitativa', 'Modelos DSGE', 'Series de Tiempo', 'Política Monetaria'],
+    name: 'MSc Osmar Bolívar Rosales',
+    role: 'Jefe de Asuntos Económicos y Profesor de Posgrado',
+  title: 'Especialista en IA para la Investigación Económica',
+  department: 'Asuntos Económicos',
+  university: 'Universidad Andina Simón Bolívar / CAINCO',
+  country: 'Bolivia',
+  bio: 'Economista especializado en inteligencia artificial, machine learning y métodos econométricos aplicados al análisis económico y políticas públicas. Galardonado con el Premio de Banca Central "Rodrigo Gómez" del CEMLA (2023).',
+  specialties: ['Inteligencia Artificial Aplicada', 'Machine Learning', 'Nowcasting del PIB', 'Teledetección', 'Econometría'],
     recentPublications: [
-      { title: 'Commodity Windfalls, Exchange Rate Anchors, and Sovereign Risk Spreads', journal: 'Journal of International Economics', year: 2024 },
-      { title: 'Monetary Policy Rules in Small Open Resource-Rich Economies', journal: 'Review of Economic Dynamics', year: 2023 }
+      { title: 'Nowcasting del PIB mediante machine learning y teledetección', journal: 'Premio Rodrigo Gómez - CEMLA', year: 2023 },
     ],
-    email: 'mateo.albarracin@ecolab-research.org',
+    email: 'osmar.bolivar@cainco.org.bo',
     scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0001-9032-1144',
-    availableHours: 'Viernes 10:00 - 13:00 (2 cupos)',
+    orcid: '0000-0000-0000-0000',
     avatar: fotoOsmarBolivar,
     acceptingMentees: true
   },
   {
     id: 'mentor-3',
-    name: 'Lic Pablo Cachaga',
-    role: 'Mentor Senior',
-    title: 'Lead Causal Inference Fellow',
-    department: 'Laboratorio de Microeconomía y Políticas Públicas',
-    university: 'Universidad Mayor de San André (UMSA)',
-    country: 'España / México',
-    bio: 'Pionera en la aplicación de estimadores robustos de Diferencias en Diferencias y econometría espacial para evaluar transferencias sociales y formalización empresarial.',
-    specialties: ['Inferencia Causal', 'Econometría Espacial', 'Economía Laboral', 'Staggered DiD'],
-    recentPublications: [
-      { title: 'Heterogeneous Effects in Staggered Social Transfers: Evidence from National Panels', journal: 'Journal of Applied Econometrics', year: 2024 },
-      { title: 'Spatial Spillovers of Minimum Wage Increases on Informal Markets', journal: 'Labour Economics', year: 2023 }
-    ],
-    email: 'camila.benitez@ecolab-research.org',
+    name: 'MSc Pablo Cachaga Herrera',
+    role: 'Docente Universitario y Ex-Subgerente de Banca Central',
+  title: 'Cátedra de Economía y Métodos Cuantitativos',
+  department: 'Carrera de Economía',
+  university: 'Universidad Mayor de San Andrés (UMSA) / UTB',
+  country: 'Bolivia',
+  bio: 'Economista con amplia trayectoria en el Banco Central de Bolivia (BCB) y el Ministerio de Economía. Especialista en sector monetario, fiscal, operaciones del sector público y finanzas.',
+  specialties: ['Sector Monetario y Fiscal', 'Inversión Extranjera Directa', 'Econometría Aplicada', 'Banca y Finanzas'],
+  recentPublications: [
+    { title: 'Inversión Extranjera Directa e implicancias macroeconómicas: Evidencia empírica para Bolivia', journal: 'Mención Honorífica Directorio BCB', year: 2022 }
+  ],
+    email: 'pablo.cachaga@umsa.bo',
     scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0003-7721-0098',
-    availableHours: 'Miércoles 16:00 - 19:00 (3 cupos)',
+    orcid: '0000-0000-0000-0000',
     avatar: fotoPabloCachaga,
     acceptingMentees: true
   },
   {
     id: 'mentor-4',
     name: 'MSc Vidal Choque Atto',
-    role: 'Mentor Senior',
-    title: 'Director de Analítica y Big Data Económico',
-    department: 'Centro de Datos de Alta Frecuencia',
-    university: 'Universidad Mayor de San André (UMSA)',
-    country: 'Argentina',
-    bio: 'Experto en el cruce de Machine Learning con identificación causal y procesamiento de billones de transacciones financieras y datos satelitales para estimación del PIB en tiempo real (nowcasting).',
-    specialties: ['Machine Learning Económico', 'Nowcasting del PIB', 'Big Data', 'Double ML'],
-    recentPublications: [
-      { title: 'High-Frequency Satellite Nightlight and Payment Data for Flash GDP Nowcasting', journal: 'International Journal of Forecasting', year: 2024 },
-      { title: 'Targeting Credit Insecurity via Double Machine Learning on Administrative Tax Records', journal: 'Journal of Financial Econometrics', year: 2023 }
-    ],
-    email: 'santiago.arrieta@ecolab-research.org',
-    scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0002-1209-6632',
-    availableHours: 'Martes 09:00 - 12:00 (3 cupos)',
+    role: 'Analista del Sector Real Senior',
+  title: 'Investigador Macroeconómico',
+  department: 'Asesoría de Política Económica',
+  university: 'Banco Central de Bolivia (BCB)',
+  country: 'Bolivia',
+  bio: 'Economista especializado en investigaciones macroeconómicas y modelos DSGE. Pionero en el desarrollo del primer modelo DSGE medioambiental para Bolivia.',
+  specialties: ['Modelos DSGE', 'Economía Ambiental / Cambio Climático', 'Macroeconomía Aplicada', 'Economía Cuantitativa'],
+  recentPublications: [
+    { title: 'Cambio climático y fragilidad del sistema financiero', journal: 'Revista de Análisis del BCB', year: 2023 },
+    { title: 'Efectos del COVID-19 en la actividad económica de Bolivia', journal: 'Revista de Análisis del BCB', year: 2022 }
+  ],
+  email: 'vidal.choque@bcb.gob.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
     avatar: fotoVidalCoque,
     acceptingMentees: true
   },
   {
     id: 'mentor-5',
-    name: 'Lic Elvis Vargas',
-    role: 'Asistente de Investigación',
-    title: 'Coordinadora de Semilleros EcoLab',
-    department: 'Semillero de Econometría y Microdatos',
-    university: 'Universidad Mayor de San André (UMSA)',
-    country: 'Perú',
-    bio: 'Economista investigadora especializada en análisis de encuestas de hogares (ENAHO, CASEN, EPH) y tutoría de tesis en microeconomía aplicada.',
-    specialties: ['Microdatos ENAHO/CASEN', 'Programación en R & Stata', 'Economía de la Pobreza'],
-    recentPublications: [
-      { title: 'Youth NEET Rates and Conditional Cash Transfers in Urban Peripheries', journal: 'Revista de Economía Institucional', year: 2024 }
-    ],
-    email: 'lucia.valenzuela@ecolab-research.org',
-    scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0001-5544-2211',
-    availableHours: 'Lunes a Viernes 15:00 - 17:00',
+    name: 'Lic. Elvis Cristian Vargas Usnayo',
+    role: 'Investigador Asistente',
+  title: 'Análisis Económico y Ciencia de Datos',
+  department: 'Investigación',
+  university: 'Universidad Mayor de San Andrés (UMSA) / Fundación Aru',
+  country: 'Bolivia',
+  bio: 'Economista orientado a la economía computacional, ciencia de datos y análisis de expectativas de inflación. Experiencia en consultoría de datos y auxiliaría de docencia.',
+  specialties: ['Ciencia de Datos', 'Economía Computacional', 'Expectativas de Inflación', 'R & Python', 'Econometría'],
+  recentPublications: [
+    { title: 'Análisis de las expectativas de inflación en Bolivia', journal: 'Taller Académico Fundación Aru', year: 2024 }
+  ],
+  email: 'cristian.vargas@aru.org.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
     avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400',
     acceptingMentees: true
   },
   {
     id: 'mentor-6',
-    name: 'MBA Jose Miguel Molina',
-    role: 'Docente Investigador',
-    title: 'Profesor de Economía Ambiental y Recursos',
-    department: 'Centro de Transición Energética y Sostenibilidad',
-    university: 'Universidad Mayor de San André & kmkllll',
-    country: 'Bolivia / EEUU',
-    bio: 'Líder en estudios sobre impuestos al carbono, valoración contingente del agua y efectos distributivos de la transición energética en países en desarrollo.',
-    specialties: ['Economía Ambiental', 'Impuestos al Carbono', 'Modelos CGE', 'Econometría Espacial'],
-    recentPublications: [
-      { title: 'Distributional Impacts of Fossil Fuel Subsidy Reforms across Deciles', journal: 'Energy Economics', year: 2024 }
-    ],
-    email: 'gabriel.restrepo@ecolab-research.org',
-    scholarUrl: 'https://scholar.google.com',
-    orcid: '0000-0002-3341-9876',
-    availableHours: 'Jueves 09:00 - 12:00 (1 cupo)',
+    name: 'MPA José Miguel Molina Fernández',
+    role: 'Research Fellow',
+  title: 'Investigador en Evaluación de Desarrollo',
+  department: 'Oficina de Evaluación y Supervisión (OVE)',
+  university: 'Banco Interamericano de Desarrollo (BID) / Harvard University',
+  country: 'Estados Unidos',
+  bio: 'Economista graduado con el Premio Raymond Vernon en Harvard (MPA/ID). Especializado en desarrollo productivo, finanzas para el desarrollo, mercados laborales y comercio internacional.',
+  specialties: ['Desarrollo Productivo', 'Mercados Laborales', 'Informalidad Laboral', 'Ciclicidad Fiscal', 'Evaluación de Impacto'],
+  recentPublications: [
+    { title: 'Estudios sobre comercio internacional, informalidad laboral y ciclicidad fiscal en Bolivia', journal: 'Ciess Econométrica / BID', year: 2023 }
+  ],
+  email: 'jose.molina@iadb.org',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
     avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=400',
     acceptingMentees: false
-  }
+  },
+  {
+  id: 'mentor-7',
+  name: 'Lic. Carlos Daniel Pantoja Durán',
+  role: 'Investigador',
+  title: 'Análisis de Pobreza y Mercado Laboral',
+  department: 'Área de Investigación',
+  university: 'Fundación Aru / UMSA',
+  country: 'Bolivia',
+  bio: 'Economista galardonado en el 18vo Encuentro de Economistas de Bolivia. Especializado en métodos cuantitativos, pronósticos con machine learning y análisis de brechas sociales.',
+  specialties: ['Economía Laboral', 'Pobreza e Inclusión Social', 'Pseudopaneles', 'Pronósticos con Machine Learning'],
+  recentPublications: [
+    { title: 'Construcción de un Pseudopanel con Encuestas de Hogares para el Análisis de las Transiciones de Pobreza en Bolivia', journal: '18vo Encuentro de Economistas de Bolivia', year: 2025 },
+    { title: 'Análisis de la brecha del ingreso laboral entre las personas con y sin discapacidad durante el periodo 2021', journal: 'Fundación Aru', year: 2023 }
+  ],
+  email: 'carlos.pantoja@aru.org.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
+  avatar: fotoCarlosPantoja,
+  acceptingMentees: true
+  },
+  {
+  id: 'mentor-8',
+  name: 'Lic. Daniela Vanessa Narváez Vargas',
+  role: 'Analista en Inversión Extranjera y Operaciones de Financiamiento',
+  title: 'Gestión de Riesgos y Finanzas Públicas',
+  department: 'Gerencia de Operaciones Internacionales',
+  university: 'Banco Central de Bolivia (BCB)',
+  country: 'Bolivia',
+  bio: 'Economista con más de 10 años de experiencia en el sector público boliviano (BCB y SIN). Formación avanzada en Machine Learning aplicado a Banca Central y análisis de distribución de regalías.',
+  specialties: ['Inversión Extranjera', 'Financiamiento Internacional', 'Gestión de Riesgos', 'Machine Learning en Banca Central'],
+  recentPublications: [
+    { title: 'Aplicación del índice de Theil para la reducción de la desigualdad interregional proveniente de la distribución de regalías', journal: 'Tesis de Licenciatura UCB', year: 2007 }
+  ],
+  email: 'daniela.narvaez@bcb.gob.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
+  avatar: fotoDanielaNarvaez,
+  acceptingMentees: true
+}
 ];
 
 export const PROJECTS_DATA: Project[] = [
