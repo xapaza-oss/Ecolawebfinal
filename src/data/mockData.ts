@@ -45,7 +45,7 @@ export const EQUIPO_DATA: TeamMember[] = [
     name: 'Ximena Apaza Mamani',
     photoUrl: fotoXimenaApaza,
     cvSummary: 'Cargo — título profesional',
-    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+    description: 'Estudiante de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención de Análisis Económico. Es integrante de la Sociedad Científica de Estudiantes de Economía (SOCIENCE-UMSA), de la Red Juvenil de Economía Circular (RED JEC) y del área de Investigación y Desarrollo de Mujeres Cambiando el Futuro. Ha participado como delegada en la Conferencia Local de la Juventud sobre Cambio Climático (LCOY Bolivia), en el acompañamiento a emprendimientos sostenibles con la Fundación CAINCO y en programas de formación digital impulsados por la Embajada de EE. UU. (NextGen: Pioneras Digitales). Sus intereses de investigación se centran en la sociología económica, la economía del comportamiento, la transición ecológica, la equidad de género y los mercados digitales.'
   },
 {
     id: 'team-1',
@@ -83,63 +83,47 @@ export const PILLARS_DATA: PillarDetail[] = [
     title: 'Formación',
     iconName: 'school',
     subtitle: 'Formación práctica y rigor metodológico',
-    description: 'Capacitación intensiva en investigación aplicada, programación científica (R, Python, Stata) y modelación para estudiantes de pregrado',
+    description: 'Ciclo de sesiones teórico-prácticas en programación (Stata, Python, Matlab), macroeconometría, microeconometría, inteligencia artificial y finanzas cuantitativas aplicadas al análisis económico.',
     steps: [
-      'Bootcamps prácticos en manejo de microdatos y web scraping económico.',
-      'Talleres avanzados en inferencia causal (Diff-in-Diff, RDD, Variables Instrumentales).',
-      'Talleres de reproducibilidad y control de versiones con Git/GitHub para economistas.'
+      'Talleres de macroeconometría (modelos lineales y no lineales) y microeconometría (evaluación de impacto y modelos de elección discreta).',
+      'Sesiones de inteligencia artificial aplicada a la economía y machine learning.',
+      'Talleres prácticos de Stata y Python para el manejo de encuestas de hogares y análisis de datos.'
     ],
-    tools: ['R / Tidyverse', 'Python / Statsmodels', 'Stata SE', 'LaTeX / Overleaf'],
-    metrics: '+850 estudiantes capacitados en los últimos 4 semestres',
+    tools: ['Stata', 'Python', 'Matlab'],
+    metrics: '8 módulos y 15 sesiones teórico-prácticas',
     color: '#ffc300'
   },
   {
     id: 'mentoria',
     title: 'Mentoría',
     iconName: 'psychology',
-    subtitle: 'Acompañamiento personalizado 1 a 1',
-    description: 'Conectamos a jóvenes investigadores con profesores titulares, doctores y economistas líderes en organismos multilaterales, bancos centrales y academia.',
+    subtitle: 'Acompañamiento de docentes e investigadores',
+    description: 'Cada sesión es dirigida por docentes de la carrera de Economía y docentes invitados, quienes acompañan a los estudiantes en el desarrollo de sus propuestas de investigación aplicada.',
     steps: [
-      'Diagnóstico y delimitación precisa de la pregunta de investigación.',
-      'Revisión periódica de avances econométricos y especificación de modelos.',
-      'Orientación para postulaciones a becas doctorales y centros de investigación globales.'
+      'Orientación en la identificación de problemas y preguntas de investigación.',
+      'Acompañamiento en el diseño de propuestas de investigación aplicada.',
+      'Retroalimentación (feedback) sobre las propuestas presentadas al cierre del programa.'
     ],
-    tools: ['Google Scholar', 'Zotero', 'Mendeley', 'Slack Colaborativo'],
-    metrics: '94% de efectividad en culminación exitosa de tesis de grado',
+    tools: ['Google Meet', 'Zoom'],
+    metrics: 'Modalidad híbrida: sesiones presenciales y virtuales',
     color: '#e0eaff'
   },
   {
     id: 'investigacion',
     title: 'Investigación',
     iconName: 'search',
-    subtitle: 'Evidencia rigurosa con impacto público',
-    description: 'Desarrollo de proyectos orientados a responder interrogantes clave sobre desigualdad, política monetaria, transición energética, informalidad laboral y desarrollo productivo.',
+    subtitle: 'De la formación a la propuesta de investigación',
+    description: 'El programa culmina con la presentación de propuestas de investigación aplicada elaboradas por los estudiantes participantes, como cierre del proceso formativo.',
     steps: [
-      'Diseño experimental y cuasi-experimental estricto.',
-      'Análisis de sensibilidad y pruebas de robustez empírica.',
-      'Elaboración de Working Papers y Policy Briefs para tomadores de decisiones.'
+      'Desarrollo de una propuesta de investigación aplicada individual o grupal.',
+      'Presentación de propuestas de investigación al finalizar el programa.',
+      'Certificación para quienes asistan al 80% de las sesiones o presenten su propuesta.'
     ],
-    tools: ['Causal Inference Tools', 'Synthetic Controls', 'Spatial Econometrics'],
-    metrics: '48 papers presentados en conferencias internacionales indexadas',
-    color: '#ffc300'
-  },
-  {
-    id: 'resultados',
-    title: 'Resultados',
-    iconName: 'insights',
-    subtitle: 'De la teoría académica a la política real',
-    description: 'Traducción de hallazgos cuantitativos en publicaciones en revistas indexadas (Q1/Q2), recomendaciones de política pública e inserción laboral de alto perfil.',
-    steps: [
-      'Publicación de Working Papers y policy notes ejecutivos.',
-      'Mesas de diálogo con ministerios de hacienda, bancos centrales y ONGs.',
-      'Colocación de graduados en programas PhD (Harvard, LSE, MIT, UC Berkeley, Carlos III).'
-    ],
-    tools: ['Journal Submissions', 'Policy Briefs', 'Academic Roadshows'],
-    metrics: '18 publicaciones Q1/Q2 en Scopus / Web of Science en 2024-2025',
+    tools: ['Investigación Aplicada'],
+    metrics: '16 propuestas de investigación en la primera versión',
     color: '#ffc300'
   }
 ];
-
 export const COURSES_DATA: Course[] = [
   {
     id: 'curso-1',
