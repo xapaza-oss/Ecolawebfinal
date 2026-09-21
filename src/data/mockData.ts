@@ -82,8 +82,8 @@ export const PILLARS_DATA: PillarDetail[] = [
     id: 'formacion',
     title: 'Formación',
     iconName: 'school',
-    subtitle: 'Semilleros técnicos y rigor metodológico',
-    description: 'Capacitación intensiva en econometría aplicada, programación científica (R, Python, Stata, Julia) y modelado causal para estudiantes de pregrado y posgrado.',
+    subtitle: 'Formación práctica y rigor metodológico',
+    description: 'Capacitación intensiva en investigación aplicada, programación científica (R, Python, Stata) y modelación para estudiantes de pregrado',
     steps: [
       'Bootcamps prácticos en manejo de microdatos y web scraping económico.',
       'Talleres avanzados en inferencia causal (Diff-in-Diff, RDD, Variables Instrumentales).',
@@ -122,21 +122,6 @@ export const PILLARS_DATA: PillarDetail[] = [
     tools: ['Causal Inference Tools', 'Synthetic Controls', 'Spatial Econometrics'],
     metrics: '48 papers presentados en conferencias internacionales indexadas',
     color: '#ffc300'
-  },
-  {
-    id: 'datos',
-    title: 'Datos',
-    iconName: 'database',
-    subtitle: 'Infraestructura de datos abiertos y curados',
-    description: 'Acceso centralizado a bases de datos microeconómicas, censos, encuestas de hogares estandarizadas y series de tiempo macroeconómicas listas para estimación.',
-    steps: [
-      'Curaduría y homologación de encuestas de hogares en América Latina.',
-      'API pública para descarga directa de microdatos en R, Python y Stata.',
-      'Diccionarios de variables interactivos con documentación metodológica.'
-    ],
-    tools: ['PostgreSQL', 'DuckDB', 'Arrow / Parquet', 'FRED & World Bank APIs'],
-    metrics: '+120 datasets abiertos y actualizados mensualmente',
-    color: '#e0eaff'
   },
   {
     id: 'resultados',
