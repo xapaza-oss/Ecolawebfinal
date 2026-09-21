@@ -53,8 +53,8 @@ export const JoinModal: React.FC<JoinModalProps> = ({
         <div className="p-6 sm:p-8 space-y-5">
           <p className={`text-sm leading-relaxed ${isDark ? 'text-[#e0eaff]/85' : 'text-[#041b47]/80'}`}>
             {lang === 'es'
-              ? 'Completa el formulario oficial de inscripción de EcoLab. El comité académico revisará tu perfil en menos de 48 horas.'
-              : 'Fill out the official EcoLab registration form. The academic committee will review your application within 48 hours.'}
+              ? 'Completa el formulario oficial de inscripción de EcoLab. El comité académico revisará tu perfil.'
+              : 'Fill out the official EcoLab registration form. The academic committee will review your application.'}
           </p>
           <a
             
