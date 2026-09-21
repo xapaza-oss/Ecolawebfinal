@@ -34,16 +34,14 @@ export const WhatIsEcoLab: React.FC<WhatIsEcoLabProps> = ({
     }
   };
 
-  const getSectionForPillar = (id: string): NavSection => {
+    const getSectionForPillar = (id: string): NavSection => {
     switch (id) {
       case 'formacion':
         return 'formacion';
       case 'mentoria':
-        return 'mentores';
+        return 'docentes';
       case 'investigacion':
         return 'proyectos';
-      case 'datos':
-        return 'data';
       case 'resultados':
         return 'proyectos';
       default:
