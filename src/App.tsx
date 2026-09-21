@@ -91,10 +91,9 @@ export function App() {
           <EquipoEcolabView isDark={isDark} lang={lang} />
         )}
 
-        {(currentSection === 'mentores' || currentSection === 'docentes') && (
+         {currentSection === 'docentes' && (
           <MentoresDocentesView
             isDark={isDark}
-            initialRoleFilter={currentSection === 'docentes' ? 'docente' : 'mentor'}
             onSelectMentor={(mentor) => setSelectedMentor(mentor)}
             lang={lang}
           />
