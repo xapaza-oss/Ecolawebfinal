@@ -11,17 +11,17 @@ import fotoJamilPatzi from '../../assets/Jamil Patzi.jpg';
 import fotoMarielaRamos from '../../assets/Mariela Ramos.jpg';
 import fotoPabloAlandia from '../../assets/Pablo Alandia.jpg';
 import fotoXimenaApaza from '../../assets/Ximena Apaza.png';
-
+import fotoCronogramatentativo from '../../assets/Cronograma tentativo.jpg';
 
 
 export const NEWS_DATA: NewsPost[] = [
   {
     id: 'news-1',
-    title: 'Título de tu publicación',
+    title: 'Cronograma Tentativo',
     type: 'foto',
-    mediaUrl: 'https://drive.google.com/uc?export=view&id=1vVmY3o8YHZ-7pfNPqGASVkil-kfKPAIO',
-    date: '2026-03-15',
-    description: 'Descripción corta de la publicación.'
+    mediaUrl: Cronogramatentativo,
+    date: '2026-09-20',
+    description: 'Cronograma EcoLab 2da Versión'
   }
 ];
 
