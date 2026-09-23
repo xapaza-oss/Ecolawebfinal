@@ -424,7 +424,46 @@ export const MENTORS_DATA: MentorDocente[] = [
   orcid: '0000-0000-0000-0000',
     avatar: fotoMiguelMolina,
     acceptingMentees: false
-  }
+  },
+  {
+  id: 'mentor-7',
+  name: 'Lic. Carlos Daniel Pantoja Durán',
+  role: 'Investigador',
+  title: 'Análisis de Pobreza y Mercado Laboral',
+  department: 'Área de Investigación',
+  university: 'Fundación Aru / UMSA',
+  country: 'Bolivia',
+  bio: 'Economista galardonado en el 18vo Encuentro de Economistas de Bolivia. Especializado en métodos cuantitativos, pronósticos con machine learning y análisis de brechas sociales.',
+  specialties: ['Economía Laboral', 'Pobreza e Inclusión Social', 'Pseudopaneles', 'Pronósticos con Machine Learning'],
+  recentPublications: [
+    { title: 'Construcción de un Pseudopanel con Encuestas de Hogares para el Análisis de las Transiciones de Pobreza en Bolivia', journal: '18vo Encuentro de Economistas de Bolivia', year: 2025 },
+    { title: 'Análisis de la brecha del ingreso laboral entre las personas con y sin discapacidad durante el periodo 2021', journal: 'Fundación Aru', year: 2023 }
+  ],
+  email: 'carlos.pantoja@aru.org.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
+  avatar: fotoMiguelMolina,
+  acceptingMentees: true
+   },
+  {
+  id: 'mentor-8',
+  name: 'Lic. Daniela Vanessa Narváez Vargas',
+  role: 'Analista en Inversión Extranjera y Operaciones de Financiamiento',
+  title: 'Gestión de Riesgos y Finanzas Públicas',
+  department: 'Gerencia de Operaciones Internacionales',
+  university: 'Banco Central de Bolivia (BCB)',
+  country: 'Bolivia',
+  bio: 'Economista con más de 10 años de experiencia en el sector público boliviano (BCB y SIN). Formación avanzada en Machine Learning aplicado a Banca Central y análisis de distribución de regalías.',
+  specialties: ['Inversión Extranjera', 'Financiamiento Internacional', 'Gestión de Riesgos', 'Machine Learning en Banca Central'],
+  recentPublications: [
+    { title: 'Aplicación del índice de Theil para la reducción de la desigualdad interregional proveniente de la distribución de regalías', journal: 'Tesis de Licenciatura UCB', year: 2007 }
+  ],
+  email: 'daniela.narvaez@bcb.gob.bo',
+  scholarUrl: 'https://scholar.google.com',
+  orcid: '0000-0000-0000-0000',
+  avatar: fotoMiguelMolina,
+  acceptingMentees: true
+   }
 ];
 
 export const PROJECTS_DATA: Project[] = [
