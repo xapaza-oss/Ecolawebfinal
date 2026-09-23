@@ -30,49 +30,40 @@ export const EQUIPO_DATA: TeamMember[] = [
     id: 'team-1',
     name: 'Mariela Ramos Guarachi',
     photoUrl: fotoMarielaRamos,
-    cvSummary: 'Cargo — título profesional',
-    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+    cvSummary: 'Cargo: Co-fundadora',
+    description: 'Mariela es estudiante de octavo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), con mención en Análisis Económico. Actualmente se desempeña como asistente de cátedra de Ecuaciones Diferenciales y en Diferencias y Asistente de Investigacion en el  Instituto de Investigaciones Socio-Económicas de la Universidad Católica Boliviana “San Pablo”. Además, forma parte de la Sociedad Científica de Estudiantes de la Carrera de Economía (SOCIENCE), es coordinadora del Programa de Formación y Mentorías en Investigación Aplicada "EcoLab".'
   },
   {
     id: 'team-1',
     name: 'Jamil',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
-    cvSummary: fotoJamilPatzi,
+    photoUrl: fotoJamilPatzi,
+    cvSummary: 'Cargo: Co-fundadora',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
   {
     id: 'team-1',
     name: 'Ximena Apaza Mamani',
     photoUrl: fotoXimenaApaza,
-    cvSummary: 'Cargo — título profesional',
+    cvSummary: 'Cargo: Co-fundadora',
     description: 'Estudiante de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención de Análisis Económico. Es integrante de la Sociedad Científica de Estudiantes de Economía (SOCIENCE-UMSA), de la Red Juvenil de Economía Circular (RED JEC) y del área de Investigación y Desarrollo de Mujeres Cambiando el Futuro. Ha participado como delegada en la Conferencia Local de la Juventud sobre Cambio Climático (LCOY Bolivia), en el acompañamiento a emprendimientos sostenibles con la Fundación CAINCO y en programas de formación digital impulsados por la Embajada de EE. UU. (NextGen: Pioneras Digitales). Sus intereses de investigación se centran en la sociología económica, la economía del comportamiento, la transición ecológica, la equidad de género y los mercados digitales.'
   },
 {
     id: 'team-1',
     name: 'Pablo Rene Alandia S',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
-    cvSummary: fotoPabloAlandia,
+    photoUrl: fotoPabloAlandia,
+    cvSummary: 'Cargo: Co-fundador',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
   {
     id: 'team-1',
     name: 'Paola Porco',
     photoUrl: fotoPaolaPorco,
-    cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de séptimo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), cursando la mención en Economía Financiera.. Actualmente, es miembro activo de la Sociedad Científica de Estudiantes de Economía (SOCIENCE – UMSA), donde desarrolla capacidades en metodología de investigación y análisis de datos. Posee un fuerte interés por el área financiera y los mercados. Asimismo, sus intereses de investigación se enfocan en el crecimiento económico y el bienestar social, con especial énfasis en el estudio de la desigualdad, la pobreza, la economía de la educación, el medio ambiente, la equidad de género.'
-  },
-  {
-    id: 'team-1',
-    name: 'Maria Yosy Lucana Mamani',
-    photoUrl: 'https://drive.google.com/uc?export=view&id=1QhtofOnXF1G5JH_hQBQG7HAq77AvOpUu',
-    cvSummary: 'Cargo — título profesional',
-    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   },
   {
     id: 'team-1',
     name: 'Daniel Alanoca',
     photoUrl: fotoDanielAlanoca,
-    cvSummary: 'Cargo — título profesional',
     description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
   }
 ];
