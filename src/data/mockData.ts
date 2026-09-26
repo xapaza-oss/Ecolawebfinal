@@ -11,6 +11,9 @@ import fotoJamilPatzi from '../../assets/Jamil Patzi.jpg';
 import fotoMarielaRamos from '../../assets/Mariela Ramos.jpg';
 import fotoPabloAlandia from '../../assets/Pablo Alandia.jpg';
 import fotoXimenaApaza from '../../assets/Ximena Apaza.png';
+import fotoElvisUsnayo from '../../assets/Elvis Usnayo.jpg';
+import fotoCarlosPantoja from '../../assets/Carlos Pantoja.jpg';
+import fotoDanielaVargas from '../../assets/Daniela Vargas.jpg';
 
 
 export const NEWS_DATA: NewsPost[] = [
@@ -393,7 +396,7 @@ export const MENTORS_DATA: MentorDocente[] = [
   email: 'cristian.vargas@aru.org.bo',
   scholarUrl: 'https://scholar.google.com',
   orcid: '0000-0000-0000-0000',
-    avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400',
+    avatar: fotoElvisUsnayo,
     acceptingMentees: true
   },
   {
@@ -432,7 +435,7 @@ export const MENTORS_DATA: MentorDocente[] = [
   email: 'carlos.pantoja@aru.org.bo',
   scholarUrl: 'https://scholar.google.com',
   orcid: '0000-0000-0000-0000',
-  avatar: fotoMiguelMolina,
+  avatar: fotoCarlosPantoja,
   acceptingMentees: true
    },
   {
@@ -451,7 +454,7 @@ export const MENTORS_DATA: MentorDocente[] = [
   email: 'daniela.narvaez@bcb.gob.bo',
   scholarUrl: 'https://scholar.google.com',
   orcid: '0000-0000-0000-0000',
-  avatar: fotoMiguelMolina,
+  avatar: fotoDanielaVargas,
   acceptingMentees: true
    }
 ];
