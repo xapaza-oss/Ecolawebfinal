@@ -11,17 +11,16 @@ import fotoJamilPatzi from '../../assets/Jamil Patzi.jpg';
 import fotoMarielaRamos from '../../assets/Mariela Ramos.jpg';
 import fotoPabloAlandia from '../../assets/Pablo Alandia.jpg';
 import fotoXimenaApaza from '../../assets/Ximena Apaza.png';
-import fotoCronogramatentativo from '../../assets/Cronograma tentativo.jpg';
-
+import fotoUltimos2días from '../../assets/Ultim 2días.jpeg';
 
 export const NEWS_DATA: NewsPost[] = [
   {
-    id: 'news-1',
-    title: 'Cronograma Tentativo',
-    type: 'foto',
-    mediaUrl: Cronogramatentativo,
-    date: '2026-09-20',
-    description: 'Cronograma EcoLab 2da Versión'
+    id: 'news-ultimos-2-dias',
+    title: 'Últimos 2 Días de Postulación',
+    type: 'flyer',
+    mediaUrl: fotoUltimos2días,
+    date: '2026-09-25',
+    description: 'Convocatoria al Programa de Formación y Mentorías en Investigación Aplicada. Cierre: domingo 27 de septiembre. 100% gratuito, modalidad híbrida y certificación con 80% de asistencia.'
   }
 ];
 
@@ -37,8 +36,8 @@ export const EQUIPO_DATA: TeamMember[] = [
     id: 'team-1',
     name: 'Jamil',
     photoUrl: fotoJamilPatzi,
-    cvSummary: 'Cargo: Co-fundadora',
-    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+    cvSummary: 'Cargo: Co-fundador',
+    description: 'Estudiante de octavo semestre de Economía en la UMSA, con mención en Análisis Económico. Ayudante de cátedra en Análisis Matemático II y Ecuaciones Diferenciales, y cofundador de EcoLab. Sus intereses de investigación se centran en macroeconometría, métodos causales y el uso de Machine Learning para el análisis macroeconómico.'
   },
   {
     id: 'team-1',
@@ -52,7 +51,7 @@ export const EQUIPO_DATA: TeamMember[] = [
     name: 'Pablo Rene Alandia S',
     photoUrl: fotoPabloAlandia,
     cvSummary: 'Cargo: Co-fundador',
-    description: 'Estudiante de Economía en Bolivia, con un marcado interés por el análisis económico, la investigación y la enseñanza. A lo largo de su formación académica ha desarrollado conocimientos en áreas como Microeconomía, Macroeconomía y Econometría, buscando comprender y analizar los principales desafíos económicos del país. Se caracteriza por ser una persona responsable, perseverante y comprometida con su formación profesional, con la motivación de continuar adquiriendo conocimientos, desarrollar nuevas habilidades y contribuir, desde la economía, al desarrollo de Bolivia.'
+    description: 'Estudiante de Economía en la Universidad Mayor de San Andrés (UMSA) enfocado en la econometría aplicada, la política monetaria y el análisis de mercados financieros. Cuento con experiencia como auxiliar de docencia en las materias de Microeconomía y Macroeconomía, además de desempeñarme como Coordinador de Investigación y Redacción en la Sociedad Científica Estudiantil de Economía (SOCIENCE). Mi perfil combina un sólido dominio de herramientas cuantitativas y de modelación —como R, Stata, EViews, Python y LaTeX— con una vocación activa por la investigación científica, la divulgación académica y el análisis riguroso orientado a la resolución de problemas macroeconómicos y sociales.'
   },
   {
     id: 'team-1',
@@ -133,7 +132,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Diseño de propuestas de investigación aplicada', practicalWork: 'Estructuración y presentación de propuesta de investigación preliminar' }
   ],
   enrolledCount: 142,
-  startDate: '02 de Octubre, 2026',
+  startDate: '05 de Octubre, 2026',
   schedule: 'Viernes, 17:30 - 21:30',
   modality: 'Presencial (Aula Magistral)',
   featured: true
@@ -156,7 +155,7 @@ export const COURSES_DATA: Course[] = [
   ],
   enrolledCount: 120,
   startDate: '03 de Octubre, 2026',
-  schedule: 'Sábado, 10:00 - 11:00',
+  schedule: 'Sábado, 18:00',
   modality: 'Online en vivo (Google Meet / Zoom)',
   featured: true
   },
@@ -167,7 +166,7 @@ export const COURSES_DATA: Course[] = [
   track: 'Macroeconometría & Series de Tiempo',
   duration: '3 Sesiones (4.5 horas)',
   hours: 5,
-  instructor: 'Lic. Pablo Cachaga Herrera',
+  instructor: 'MSc. Pablo Cachaga Herrera',
   instructorRole: 'Lic. en Economía y Magíster en Finanzas - Docente Universitario',
   instructorAffiliation: 'UMSA / UTB / SOCIENCE',
   description: 'Fundamentos e implementación de modelos macroeconométricos lineales de series de tiempo, diagnóstico, validación y estimación con datos macroeconómicos.',
@@ -179,7 +178,7 @@ export const COURSES_DATA: Course[] = [
   ],
   enrolledCount: 95,
   startDate: '07 de Octubre, 2026',
-  schedule: 'Miércoles, Jueves y Sábado, 18:30 - 20:00',
+  schedule: 'Miércoles, Jueves y Sábado, 19:00',
   modality: 'Online en vivo',
   featured: false
   },
@@ -223,7 +222,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Limpieza, depuración y ponderación de datos de encuestas', practicalWork: 'Cálculo de indicadores socioeconómicos aplicando factores de expansión' }
   ],
   enrolledCount: 130,
-  startDate: '20 de Octubre, 2026',
+  startDate: '21 de Octubre, 2026',
   schedule: 'Martes, 19:00 - 21:00',
   modality: 'Online en vivo',
   featured: false
@@ -235,7 +234,7 @@ export const COURSES_DATA: Course[] = [
   track: 'Políticas Públicas & Causalidad',
   duration: '2 Sesiones (3 horas)',
   hours: 3,
-  instructor: 'MPA José Miguel Molina Fernández',
+  instructor: 'MBA José Miguel Molina Fernández',
   instructorRole: 'Research Fellow (BID) - Master in Public Administration (Harvard)',
   instructorAffiliation: 'BID (OVE) / Harvard University / SOCIENCE',
   description: 'Principios y métodos de evaluación de impacto experimental y cuasi-experimental para la medición del efecto causal de programas y políticas públicas.',
@@ -245,8 +244,8 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Métodos de evaluación: experimentales (RCTs) y cuasi-experimentales', practicalWork: 'Aplicación práctica de evaluación de impacto de políticas sociales' }
   ],
   enrolledCount: 115,
-  startDate: '17 de Octubre, 2026',
-  schedule: 'Sábado y Domingo, 20:00 - 21:30',
+  startDate: '31 de Octubre, 2026',
+  schedule: 'Sábado y Domingo, 10:30',
   modality: 'Online en vivo',
   featured: true
   },
