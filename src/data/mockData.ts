@@ -17,14 +17,7 @@ import fotoDanielaVargas from '../../assets/Daniela Vargas.jpg';
 
 
 export const NEWS_DATA: NewsPost[] = [
-  {
-    id: 'news-1',
-    title: 'Cronograma Tentativo',
-    type: 'foto',
-    mediaUrl: 'foto',
-    date: '2026-09-20',
-    description: 'Cronograma EcoLab 2da Versión'
-  }
+ 
 ];
 
 export const EQUIPO_DATA: TeamMember[] = [
