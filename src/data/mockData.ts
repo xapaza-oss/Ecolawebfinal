@@ -64,6 +64,7 @@ export const NEWS_DATA: NewsPost[] = [
     mediaUrl: fotoEcoLab1VGrupal,
     date: '2025-11-26',
     description: '"Equipo y participantes de la 1ra versión de EcoLab. Gracias por abrir el camino.¡Vamos con toda en esta 2da convocatoria!"'
+    featured: true
   }
 ];
 
