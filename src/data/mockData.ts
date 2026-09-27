@@ -144,7 +144,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Fundamentos de la investigación aplicada en economía', practicalWork: 'Identificación de problemas y formulación de preguntas de investigación' },
     { week: 1, topic: 'Diseño de propuestas de investigación aplicada', practicalWork: 'Estructuración y presentación de propuesta de investigación preliminar' }
   ],
-  enrolledCount: 142,
+  enrolledCount: 0,
   startDate: '05 de Octubre, 2026',
   schedule: 'Viernes, 17:30 - 21:30',
   modality: 'Presencial (Aula Magistral)',
@@ -166,7 +166,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Introducción a la IA y sus aplicaciones económicas', practicalWork: 'Casos de uso de IA en decisiones económicas y financieras' },
     { week: 1, topic: 'Modelos de aprendizaje automático aplicados al análisis económico', practicalWork: 'Demostración práctica de modelos de Machine Learning en economía' }
   ],
-  enrolledCount: 120,
+  enrolledCount: 0,
   startDate: '03 de Octubre, 2026',
   schedule: 'Sábado, 18:00',
   modality: 'Online en vivo (Google Meet / Zoom)',
@@ -189,7 +189,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Diagnóstico y validación de modelos lineales', practicalWork: 'Pruebas de estacionariedad, autocorrelación y heterocedasticidad' },
     { week: 1, topic: 'Aplicaciones prácticas con series macroeconómicas', practicalWork: 'Modelado y simulación con datos del Banco Central' }
   ],
-  enrolledCount: 95,
+  enrolledCount: 0,
   startDate: '07 de Octubre, 2026',
   schedule: 'Miércoles, Jueves y Sábado, 19:00',
   modality: 'Online en vivo',
@@ -234,7 +234,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Manejo de bases de datos de encuestas de hogares en Stata', practicalWork: 'Estructuración y fusión de módulos de encuestas de hogares (INE)' },
     { week: 1, topic: 'Limpieza, depuración y ponderación de datos de encuestas', practicalWork: 'Cálculo de indicadores socioeconómicos aplicando factores de expansión' }
   ],
-  enrolledCount: 130,
+  enrolledCount: 0,
   startDate: '21 de Octubre, 2026',
   schedule: 'Martes, 19:00 - 21:00',
   modality: 'Online en vivo',
@@ -256,7 +256,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Fundamentos de la evaluación de impacto en microeconometría', practicalWork: 'Construcción del contrafactual e identificación de sesgo de selección' },
     { week: 1, topic: 'Métodos de evaluación: experimentales (RCTs) y cuasi-experimentales', practicalWork: 'Aplicación práctica de evaluación de impacto de políticas sociales' }
   ],
-  enrolledCount: 115,
+  enrolledCount: 0,
   startDate: '31 de Octubre, 2026',
   schedule: 'Sábado y Domingo, 10:30',
   modality: 'Online en vivo',
@@ -279,7 +279,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Estimación e interpretación de modelos Logit y Probit', practicalWork: 'Cálculo e interpretación de efectos marginales en Stata' },
     { week: 1, topic: 'Aplicaciones de la regresión logística en economía y ciencias sociales', practicalWork: 'Modelado de determinantes del empleo e informalidad' }
   ],
-  enrolledCount: 90,
+  enrolledCount: 0,
   startDate: '29 de Octubre, 2026',
   schedule: 'Jueves, Martes y Jueves, 19:00 - 20:30',
   modality: 'Online en vivo',
@@ -302,7 +302,7 @@ export const COURSES_DATA: Course[] = [
     { week: 1, topic: 'Manejo de librerías para análisis de datos (pandas, numpy)', practicalWork: 'Limpieza y transformación de series cuantitativas económicas' },
     { week: 1, topic: 'Aplicaciones de Python en el análisis económico', practicalWork: 'Visualización y automatización de reportes económicos' }
   ],
-  enrolledCount: 150,
+  enrolledCount: 0,
   startDate: '07 de Noviembre, 2026',
   schedule: 'Sábado, 20:00 - 21:30',
   modality: 'Online en vivo',
