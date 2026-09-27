@@ -52,12 +52,10 @@ export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, 
             >
               <div className="w-full aspect-video bg-black/20">
                 {post.type === 'video' ? (
-                  <iframe
+                  <video
                     src={post.mediaUrl}
-                    title={post.title}
-                    className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    controls
+                    className="w-full h-full object-cover"
                   />
                 ) : (
                   <img src={post.mediaUrl} alt={post.title} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
