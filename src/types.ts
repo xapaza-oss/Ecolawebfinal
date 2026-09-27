@@ -7,6 +7,7 @@ export interface NewsPost {
   mediaUrl: string; // foto/flyer: link directo a la imagen. video: link de embed de YouTube
   date: string;
   description: string;
+  featured?: boolean; // true = se muestra grande, ocupando 2 columnas
 }
 
 export interface TeamMember {
