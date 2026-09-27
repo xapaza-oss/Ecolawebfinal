@@ -18,6 +18,8 @@ import fotoUltim2Dias from '../../assets/Ultim 2días.jpeg';
 import videoMentores1 from '../../assets/Mentores 1.mp4';
 import videoParticp1V from '../../assets/Particp1V.mp4';
 import videoMentores2 from '../../assets/Mentores 2.mp4';
+import fotoEcoLab1VGrupal from '../../assets/EcoLab1VGrupal.jpg';
+
 
 
 
@@ -59,7 +61,7 @@ export const NEWS_DATA: NewsPost[] = [
     id: 'news-ultimos-2-dias',
     title: 'EcoLab 1ra Versión',
     type: 'Foto',
-    mediaUrl: fotoUltim2Dias,
+    mediaUrl: fotoEcoLab1VGrupal,
     date: '2025-11-26',
     description: '"Equipo y participantes de la 1ra versión de EcoLab. Gracias por abrir el camino.¡Vamos con toda en esta 2da convocatoria!"'
   }
