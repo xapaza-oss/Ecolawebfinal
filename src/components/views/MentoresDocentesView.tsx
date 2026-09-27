@@ -167,20 +167,6 @@ export const MentoresDocentesView: React.FC<MentoresDocentesViewProps> = ({
                 </div>
               )}
             </div>
-
-            {/* Bottom Actions */}
-            <div className="pt-4 border-t border-white/10 flex items-center justify-between">
-              <span className="text-[11px] font-mono-code text-[#ffc300] font-semibold">
-                🕒 {mentor.availableHours}
-              </span>
-              <button
-                onClick={() => onSelectMentor(mentor)}
-                className="px-3.5 py-2 bg-[#ffc300] hover:bg-[#ffd033] text-[#041b47] font-mono-code text-xs uppercase font-bold rounded flex items-center gap-1.5 shadow-sm active:scale-95 transition-all"
-              >
-                <Calendar className="w-3.5 h-3.5 text-[#041b47]" />
-                <span>{lang === 'es' ? 'Agendar' : 'Book'}</span>
-              </button>
-            </div>
           </div>
         ))}
       </div>
