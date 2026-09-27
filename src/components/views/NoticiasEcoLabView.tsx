@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NEWS_DATA } from '../../data/mockData';
-import { Newspaper, ImageIcon, Video, FileImage } from 'lucide-react';
+import { Newspaper, ImageIcon, Video, FileImage, X } from 'lucide-react';
 import fondoNoticias from '../../../assets/fondo.jpeg';
 
 interface NoticiasEcoLabViewProps {
@@ -9,6 +9,8 @@ interface NoticiasEcoLabViewProps {
 }
 
 export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, lang }) => {
+  const [expandedImage, setExpandedImage] = useState<{ url: string; title: string } | null>(null);
+
   const typeLabel = (type: string) => {
     if (type === 'foto') return lang === 'es' ? 'Foto' : 'Photo';
     if (type === 'video') return 'Video';
@@ -42,7 +44,7 @@ export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, 
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
           {NEWS_DATA.map((post) => (
             <div
               key={post.id}
@@ -50,17 +52,26 @@ export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, 
                 isDark ? 'glass-panel border-[#e0eaff]/15 hover:border-[#ffc300]/50' : 'bg-white border-[#041b47]/15 shadow-md'
               }`}
             >
-              <div className="w-full aspect-video bg-black/20">
+              <div className="w-full bg-black/10">
                 {post.type === 'video' ? (
-                  <iframe
+                  <video
                     src={post.mediaUrl}
-                    title={post.title}
-                    className="w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    controls
+                    className="w-full h-auto max-h-[600px] block mx-auto"
                   />
                 ) : (
-                  <img src={post.mediaUrl} alt={post.title} referrerPolicy="no-referrer" className="w-full h-full object-cover" />
+                  <button
+                    type="button"
+                    onClick={() => setExpandedImage({ url: post.mediaUrl, title: post.title })}
+                    className="w-full block cursor-zoom-in"
+                  >
+                    <img
+                      src={post.mediaUrl}
+                      alt={post.title}
+                      referrerPolicy="no-referrer"
+                      className="w-full h-auto block"
+                    />
+                  </button>
                 )}
               </div>
 
@@ -83,6 +94,28 @@ export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, 
           ))}
         </div>
       </div>
+
+      {/* Lightbox: ver la imagen/flyer completo en grande */}
+      {expandedImage && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-sm"
+          onClick={() => setExpandedImage(null)}
+        >
+          <button
+            onClick={() => setExpandedImage(null)}
+            className="absolute top-4 right-4 p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <img
+            src={expandedImage.url}
+            alt={expandedImage.title}
+            referrerPolicy="no-referrer"
+            className="max-w-full max-h-[90vh] object-contain rounded-lg"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 };
