@@ -16,6 +16,10 @@ import fotoCarlosPantoja from '../../assets/Carlos Pantoja.jpg';
 import fotoDanielaVargas from '../../assets/Daniela Vargas.jpg';
 import fotoUltim2Dias from '../../assets/Ultim 2días.jpeg';
 import videoMentores1 from '../../assets/Mentores 1.mp4';
+import videoParticp1V from '../../assets/Particp1V.mp4';
+import videoMentores2 from '../../assets/Mentores 2.mp4';
+
+
 
 
 export const NEWS_DATA: NewsPost[] = [
@@ -29,11 +33,35 @@ export const NEWS_DATA: NewsPost[] = [
   },
     {
     id: 'news-mentores-1',
-    title: 'Conoce a algunos de nuestros Mentores en EcoLab 1ra Versión',
+    title: 'Conoce a más de nuestros Mentores en EcoLab 1ra Versión',
     type: 'video',
     mediaUrl: videoMentores1,
     date: '2026-09-26',
-    description: 'Alejandro González Jiménez y Carlos Pantoja acompañaron a estudiantes en ese camino. Para ellos, la mentoría también significó descubrir nuevos problemas económicos y reconocer la cantidad de temas que todavía pueden ser investigados en Bolivia. Ahora es tu turno.'
+    description: 'Alejandro González Jiménez y Carlos Pantoja acompañaron a estudiantes en ese camino. Para ellos, la mentoría también significó descubrir nuevos problemas económicos y reconocer la cantidad de temas que todavía pueden ser investigados en Bolivia. Ahora es tu turno.📊🔎'
+  },
+   {
+    id: 'news-participantes-1',
+    title: 'Conoce a algunos de nuestros participantes de EcoLab 1ra Versión',
+    type: 'video',
+    mediaUrl: videoParticp1V,
+    date: '2026-09-26',
+    description: ' Mariela y Pablo nos comparten cómo vivieron EcoLab, qué aprendizajes se llevan y qué significó para ellos formar parte de esta experiencia. 🚀 EcoLab vuelve en su 2.ª versión, un espacio de mentoría para transformar una idea en una propuesta de investigación sólida y bien fundamentada. 📅 Del 2 de octubre al 21 de noviembre ⏳ Postula hasta el 27 de septiembre'
+  },
+  {
+    id: 'news-mentores-2',
+    title: 'Conoce a algunos de nuestros Mentores en EcoLab 1ra Versión',
+    type: 'video',
+    mediaUrl: videoMentores2,
+    date: '2026-09-26',
+    description: 'Diana Gonzales  y Jorge Mejillones (Mejillones Lopez), mentores de la primera versión de EcoLab, comparten su experiencia acompañando a estudiantes en el desarrollo de sus propuestas de investigación. 💬 Desde orientar y reformular ideas hasta aportar en la estructura del trabajo y la modelación econométrica, ambos nos cuentan por qué acompañar a las nuevas generaciones también es una experiencia enriquecedora.'
+  },
+  {
+    id: 'news-ultimos-2-dias',
+    title: 'EcoLab 1ra Versión',
+    type: 'Foto',
+    mediaUrl: fotoUltim2Dias,
+    date: '2025-11-26',
+    description: '"Equipo y participantes de la 1ra versión de EcoLab. Gracias por abrir el camino.¡Vamos con toda en esta 2da convocatoria!"'
   }
 ];
 
