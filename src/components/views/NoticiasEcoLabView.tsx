@@ -44,13 +44,14 @@ export const NoticiasEcoLabView: React.FC<NoticiasEcoLabViewProps> = ({ isDark, 
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 items-start">
+          <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:_balance]">
           {NEWS_DATA.map((post) => (
             <div
               key={post.id}
-              className={`rounded-2xl border overflow-hidden transition-all ${
+              className={`rounded-2xl border overflow-hidden transition-all mb-6 break-inside-avoid ${
                 isDark ? 'glass-panel border-[#e0eaff]/15 hover:border-[#ffc300]/50' : 'bg-white border-[#041b47]/15 shadow-md'
               }`}
+            >
             >
               <div className="w-full bg-black/10">
                 {post.type === 'video' ? (
