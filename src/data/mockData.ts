@@ -14,10 +14,18 @@ import fotoXimenaApaza from '../../assets/Ximena Apaza.png';
 import fotoElvisUsnayo from '../../assets/Elvis Usnayo.jpg';
 import fotoCarlosPantoja from '../../assets/Carlos Pantoja.jpg';
 import fotoDanielaVargas from '../../assets/Daniela Vargas.jpg';
+import fotoUltim2Dias from '../../assets/Ultim 2días.jpeg';
 
 
 export const NEWS_DATA: NewsPost[] = [
- 
+  {
+    id: 'news-ultimos-2-dias',
+    title: 'Últimos 2 Días de Postulación',
+    type: 'flyer',
+    mediaUrl: fotoUltim2Dias,
+    date: '2026-09-25',
+    description: 'Convocatoria al Programa de Formación y Mentorías en Investigación Aplicada. Cierre: domingo 27 de septiembre. 100% gratuito, modalidad híbrida y certificación con 80% de asistencia.'
+  } 
 ];
 
 export const EQUIPO_DATA: TeamMember[] = [
