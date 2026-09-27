@@ -29,11 +29,11 @@ export const NEWS_DATA: NewsPost[] = [
   },
     {
     id: 'news-mentores-1',
-    title: 'Mentores',
+    title: 'Conoce a algunos de nuestros Mentores en EcoLab 1ra Versión',
     type: 'video',
     mediaUrl: videoMentores1,
     date: '2026-09-26',
-    description: 'Conoce a algunos de nuestros mentores en EcoLab 1ra Versión. En la primera versión de EcoLab, Alejandro González Jiménez y Carlos Pantoja acompañaron a estudiantes en ese camino. Para ellos, la mentoría también significó descubrir nuevos problemas económicos y reconocer la cantidad de temas que todavía pueden ser investigados en Bolivia. Ahora es tu turno.'
+    description: 'Alejandro González Jiménez y Carlos Pantoja acompañaron a estudiantes en ese camino. Para ellos, la mentoría también significó descubrir nuevos problemas económicos y reconocer la cantidad de temas que todavía pueden ser investigados en Bolivia. Ahora es tu turno.'
   }
 ];
 
