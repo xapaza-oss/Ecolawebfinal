@@ -40,7 +40,7 @@ export const NEWS_DATA: NewsPost[] = [
 export const EQUIPO_DATA: TeamMember[] = [
   {
     id: 'team-1',
-    name: 'Mariela Ramos Guarachi',
+    name: 'Mariela Ramos Huarachi',
     photoUrl: fotoMarielaRamos,
     cvSummary: 'Cargo: Co-fundadora',
     description: 'Mariela es estudiante de octavo semestre de la carrera de Economía en la Universidad Mayor de San Andrés (UMSA), con mención en Análisis Económico. Actualmente se desempeña como asistente de cátedra de Ecuaciones Diferenciales y en Diferencias y Asistente de Investigacion en el  Instituto de Investigaciones Socio-Económicas de la Universidad Católica Boliviana “San Pablo”. Además, forma parte de la Sociedad Científica de Estudiantes de la Carrera de Economía (SOCIENCE), es coordinadora del Programa de Formación y Mentorías en Investigación Aplicada "EcoLab".'
@@ -49,7 +49,7 @@ export const EQUIPO_DATA: TeamMember[] = [
     id: 'team-1',
     name: 'Jamil',
     photoUrl: fotoJamilPatzi,
-    cvSummary: 'Cargo: Co-fundadora',
+    cvSummary: 'Cargo: Co-fundador',
     description: 'Estudiante de octavo semestre de Economía en la UMSA, con mención en Análisis Económico. Ayudante de cátedra en Análisis Matemático II y Ecuaciones Diferenciales, y cofundador de EcoLab. Sus intereses de investigación se centran en macroeconometría, métodos causales y el uso de Machine Learning para el análisis macroeconómico.'
   },
   {
