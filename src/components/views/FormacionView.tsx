@@ -196,7 +196,7 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
                       <span>
                         {isSyllabusOpen
                           ? lang === 'es' ? 'Ocultar Temario Detallado' : 'Hide Syllabus'
-                          : lang === 'es' ? 'Ver Temario y Prácticas Semanales' : 'View Weekly Syllabus'}
+                          : lang === 'es' ? 'Ver Temario y Prácticas por Sesión' : 'View Session Syllabus'}
                       </span>
                       {isSyllabusOpen ? <ChevronUp className="w-4 h-4 text-[#ffc300]" /> : <ChevronDown className="w-4 h-4 text-[#ffc300]" />}
                     </button>
@@ -205,7 +205,7 @@ export const FormacionView: React.FC<FormacionViewProps> = ({
                       <div className="mt-3 space-y-2 max-h-48 overflow-y-auto pr-1">
                         {course.syllabus.map((item) => (
                           <div key={item.week} className="p-2.5 rounded bg-[#02102e]/90 text-xs border border-[#e0eaff]/10">
-                            <span className="font-mono-code text-[#ffc300] font-bold">Semana {item.week}: </span>
+                            <span className="font-mono-code text-[#ffc300] font-bold">Sesión {item.week}: </span>
                             <span className="text-white font-medium">{item.topic}</span>
                             <p className="text-[11px] text-[#e0eaff]/75 font-mono-code mt-0.5">🛠 Práctica: {item.practicalWork}</p>
                           </div>
