@@ -15,6 +15,7 @@ import fotoElvisUsnayo from '../../assets/Elvis Usnayo.jpg';
 import fotoCarlosPantoja from '../../assets/Carlos Pantoja.jpg';
 import fotoDanielaVargas from '../../assets/Daniela Vargas.jpg';
 import fotoUltim2Dias from '../../assets/Ultim 2días.jpeg';
+import videoMentores1 from '../../assets/Mentores 1.mp4';
 
 
 export const NEWS_DATA: NewsPost[] = [
@@ -25,7 +26,15 @@ export const NEWS_DATA: NewsPost[] = [
     mediaUrl: fotoUltim2Dias,
     date: '2026-09-25',
     description: 'Convocatoria al Programa de Formación y Mentorías en Investigación Aplicada. Cierre: domingo 27 de septiembre. 100% gratuito, modalidad híbrida y certificación con 80% de asistencia.'
-  } 
+  },
+    {
+    id: 'news-mentores-1',
+    title: 'Mentores',
+    type: 'video',
+    mediaUrl: videoMentores1,
+    date: '2026-09-26',
+    description: 'Conoce a algunos de nuestros mentores en EcoLab 1ra Versión'
+  }
 ];
 
 export const EQUIPO_DATA: TeamMember[] = [
