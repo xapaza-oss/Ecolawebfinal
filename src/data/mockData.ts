@@ -33,7 +33,7 @@ export const NEWS_DATA: NewsPost[] = [
     type: 'video',
     mediaUrl: videoMentores1,
     date: '2026-09-26',
-    description: 'Conoce a algunos de nuestros mentores en EcoLab 1ra Versión'
+    description: 'Conoce a algunos de nuestros mentores en EcoLab 1ra Versión. En la primera versión de EcoLab, Alejandro González Jiménez y Carlos Pantoja acompañaron a estudiantes en ese camino. Para ellos, la mentoría también significó descubrir nuevos problemas económicos y reconocer la cantidad de temas que todavía pueden ser investigados en Bolivia. Ahora es tu turno.'
   }
 ];
 
@@ -474,7 +474,7 @@ export const PROJECTS_DATA: Project[] = [
   id: 'proj-1',
   title: 'Determinantes socioeconómicos y familiares del abandono escolar en adolescentes bolivianos mayores de 14 años: un análisis con regresión logística binomial',
   authors: [
-    { name: 'Ernesto Ayala Attie', email: 'ernestoayalaattie25@gmail.com', institution: 'Universidad Mayor de San Andrés (UMSA)-Economía-Programa EcoLab' }
+    { name: 'Ernesto Ayala Attie', email: 'ernestoayalaattie25@gmail.com', institution: 'Universidad Católica Boliviana "San Pablo" Sede La Paz - Programa EcoLab' }
   ],
   abstract: 'La propuesta analiza los factores socioeconómicos, familiares y demográficos que inciden en la continuidad o el abandono escolar de los adolescentes bolivianos mayores de 14 años. Mediante el uso de un modelo de regresión logística binomial (Logit) basado en datos de la Encuesta de Hogares del Instituto Nacional de Estadística (INE), se evalúan determinantes como el ingreso del hogar, la educación de los padres, la zona de residencia (urbana/rural) y la inserción laboral temprana, diferenciando los motivos del abandono para ofrecer insumos orientados a políticas públicas.',
   year: 2025,
