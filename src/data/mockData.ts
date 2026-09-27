@@ -142,7 +142,7 @@ export const COURSES_DATA: Course[] = [
   tools: ['Stata', 'R', 'Metodología de Investigación'],
   syllabus: [
     { week: 1, topic: 'Fundamentos de la investigación aplicada en economía', practicalWork: 'Identificación de problemas y formulación de preguntas de investigación' },
-    { week: 1, topic: 'Diseño de propuestas de investigación aplicada', practicalWork: 'Estructuración y presentación de propuesta de investigación preliminar' }
+    { week: 2, topic: 'Diseño de propuestas de investigación aplicada', practicalWork: 'Estructuración y presentación de propuesta de investigación preliminar' }
   ],
   enrolledCount: 0,
   startDate: '05 de Octubre, 2026',
@@ -164,7 +164,7 @@ export const COURSES_DATA: Course[] = [
   tools: ['Python', 'Machine Learning', 'IA Generativa'],
   syllabus: [
     { week: 1, topic: 'Introducción a la IA y sus aplicaciones económicas', practicalWork: 'Casos de uso de IA en decisiones económicas y financieras' },
-    { week: 1, topic: 'Modelos de aprendizaje automático aplicados al análisis económico', practicalWork: 'Demostración práctica de modelos de Machine Learning en economía' }
+    { week: 2, topic: 'Modelos de aprendizaje automático aplicados al análisis económico', practicalWork: 'Demostración práctica de modelos de Machine Learning en economía' }
   ],
   enrolledCount: 0,
   startDate: '03 de Octubre, 2026',
@@ -186,8 +186,8 @@ export const COURSES_DATA: Course[] = [
   tools: ['EViews', 'Stata', 'R'],
   syllabus: [
     { week: 1, topic: 'Fundamentos de los modelos macroeconométricos lineales', practicalWork: 'Estimación de modelos de series de tiempo lineales' },
-    { week: 1, topic: 'Diagnóstico y validación de modelos lineales', practicalWork: 'Pruebas de estacionariedad, autocorrelación y heterocedasticidad' },
-    { week: 1, topic: 'Aplicaciones prácticas con series macroeconómicas', practicalWork: 'Modelado y simulación con datos del Banco Central' }
+    { week: 2, topic: 'Diagnóstico y validación de modelos lineales', practicalWork: 'Pruebas de estacionariedad, autocorrelación y heterocedasticidad' },
+    { week: 3, topic: 'Aplicaciones prácticas con series macroeconómicas', practicalWork: 'Modelado y simulación con datos del Banco Central' }
   ],
   enrolledCount: 0,
   startDate: '07 de Octubre, 2026',
@@ -209,8 +209,8 @@ export const COURSES_DATA: Course[] = [
   tools: ['Stata', 'Matlab', 'R'],
   syllabus: [
     { week: 1, topic: 'Introducción a los modelos macroeconométricos no lineales', practicalWork: 'Identificación de no linealidades en series macroeconómicas' },
-    { week: 1, topic: 'Modelos de cambio de régimen (Markov-Switching) y umbral (TAR/SETAR)', practicalWork: 'Estimación de modelos de cambio de régimen en Stata/R' },
-    { week: 1, topic: 'Aplicaciones de modelos no lineales al análisis macroeconómico', practicalWork: 'Evaluación de impactos asimétricos en shocks económicos' }
+    { week: 2, topic: 'Modelos de cambio de régimen (Markov-Switching) y umbral (TAR/SETAR)', practicalWork: 'Estimación de modelos de cambio de régimen en Stata/R' },
+    { week: 3, topic: 'Aplicaciones de modelos no lineales al análisis macroeconómico', practicalWork: 'Evaluación de impactos asimétricos en shocks económicos' }
   ],
   enrolledCount: 88,
   startDate: '11 de Octubre, 2026',
@@ -232,7 +232,7 @@ export const COURSES_DATA: Course[] = [
   tools: ['Stata'],
   syllabus: [
     { week: 1, topic: 'Manejo de bases de datos de encuestas de hogares en Stata', practicalWork: 'Estructuración y fusión de módulos de encuestas de hogares (INE)' },
-    { week: 1, topic: 'Limpieza, depuración y ponderación de datos de encuestas', practicalWork: 'Cálculo de indicadores socioeconómicos aplicando factores de expansión' }
+    { week: 2, topic: 'Limpieza, depuración y ponderación de datos de encuestas', practicalWork: 'Cálculo de indicadores socioeconómicos aplicando factores de expansión' }
   ],
   enrolledCount: 0,
   startDate: '21 de Octubre, 2026',
@@ -254,7 +254,7 @@ export const COURSES_DATA: Course[] = [
   tools: ['Stata', 'R', 'Inferencia Causal'],
   syllabus: [
     { week: 1, topic: 'Fundamentos de la evaluación de impacto en microeconometría', practicalWork: 'Construcción del contrafactual e identificación de sesgo de selección' },
-    { week: 1, topic: 'Métodos de evaluación: experimentales (RCTs) y cuasi-experimentales', practicalWork: 'Aplicación práctica de evaluación de impacto de políticas sociales' }
+    { week: 2, topic: 'Métodos de evaluación: experimentales (RCTs) y cuasi-experimentales', practicalWork: 'Aplicación práctica de evaluación de impacto de políticas sociales' }
   ],
   enrolledCount: 0,
   startDate: '31 de Octubre, 2026',
@@ -276,8 +276,8 @@ export const COURSES_DATA: Course[] = [
   tools: ['Stata', 'R'],
   syllabus: [
     { week: 1, topic: 'Fundamentos de los modelos de elección discreta', practicalWork: 'Especificación de funciones de probabilidad acumulada' },
-    { week: 1, topic: 'Estimación e interpretación de modelos Logit y Probit', practicalWork: 'Cálculo e interpretación de efectos marginales en Stata' },
-    { week: 1, topic: 'Aplicaciones de la regresión logística en economía y ciencias sociales', practicalWork: 'Modelado de determinantes del empleo e informalidad' }
+    { week: 2, topic: 'Estimación e interpretación de modelos Logit y Probit', practicalWork: 'Cálculo e interpretación de efectos marginales en Stata' },
+    { week: 3, topic: 'Aplicaciones de la regresión logística en economía y ciencias sociales', practicalWork: 'Modelado de determinantes del empleo e informalidad' }
   ],
   enrolledCount: 0,
   startDate: '29 de Octubre, 2026',
@@ -299,8 +299,8 @@ export const COURSES_DATA: Course[] = [
   tools: ['Python', 'Pandas', 'NumPy', 'Jupyter Notebook'],
   syllabus: [
     { week: 1, topic: 'Introducción al lenguaje Python y su entorno de desarrollo', practicalWork: 'Configuración del entorno Jupyter/Colab y sintaxis básica' },
-    { week: 1, topic: 'Manejo de librerías para análisis de datos (pandas, numpy)', practicalWork: 'Limpieza y transformación de series cuantitativas económicas' },
-    { week: 1, topic: 'Aplicaciones de Python en el análisis económico', practicalWork: 'Visualización y automatización de reportes económicos' }
+    { week: 2, topic: 'Manejo de librerías para análisis de datos (pandas, numpy)', practicalWork: 'Limpieza y transformación de series cuantitativas económicas' },
+    { week: 3, topic: 'Aplicaciones de Python en el análisis económico', practicalWork: 'Visualización y automatización de reportes económicos' }
   ],
   enrolledCount: 0,
   startDate: '07 de Noviembre, 2026',
